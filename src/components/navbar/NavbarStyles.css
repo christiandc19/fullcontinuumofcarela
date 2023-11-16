@@ -29,7 +29,11 @@
 
 .navbar-logo h1 {
   color: rgb(228, 148, 27);
-  font-size: 3rem;
+  font-size: 2.5rem;
+}
+
+.navbar-logo span {
+  color: white;
 }
 
 

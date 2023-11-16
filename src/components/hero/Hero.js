@@ -1,7 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Zoom from 'react-reveal/Zoom';
-
+import { MdPhoneCallback } from "react-icons/md";
 import "./Hero.css";
 
 import Gauge from './Gauge'
@@ -36,7 +35,7 @@ const Hero = () => {
                      <h2>Creating Stability in Recovery.</h2>
                   </Zoom>
                      <div className='gauges container'>
-                     <Zoom duration={3000} delay={2000}>
+                     <Zoom duration={3000} delay={1500}>
                         <div className='gauge-container'>
                             <Gauge Gauge="50,000" Name="Homeless Treated" ClassName="homeless"/>
                         </div>
@@ -49,10 +48,9 @@ const Hero = () => {
 
 
                     <div className='hero-btn'>
-                      <Zoom duration={3000} delay={2500}>
-                         <Link to="/contact">
-                            <button>Contact Us</button>
-                          </Link> 
+                      <Zoom duration={3000} delay={2000}>
+                          <h2><span><MdPhoneCallback /></span> <a href="tel:1234567890">(123) 456-7890</a></h2>
+                            {/* <button>Call Us</button> */}
                       </Zoom>                   
                       </div>
 

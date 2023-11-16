@@ -20,7 +20,7 @@ const ResidentialSection = () => {
             <p>Creating a safe and comfortable environment is foundational to successful detoxification. Our residential facilities offer a retreat-like setting, providing private and serene accommodations. Residents can focus on their recovery in a peaceful atmosphere, surrounded by nature and supportive peers, ensuring a conducive space for healing.</p>
           </div>
 
-      <div className='residential-program-flex-right'>
+      <div className='residential-program-flex-right gradient-border'>
         <img src={Man} alt='Smiling Man' loading='lazy'/>
       </div>
 

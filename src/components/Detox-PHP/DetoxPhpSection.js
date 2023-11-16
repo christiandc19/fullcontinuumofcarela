@@ -20,7 +20,7 @@ const DetoxPhpSection = () => {
             <p>Under the supervision of our experienced medical team, residents in the Detox PHP undergo a safe and structured detoxification process. This includes comprehensive medical assessments, 24/7 monitoring, and personalized care plans that address both physical and psychological aspects of withdrawal.</p>
           </div>
 
-      <div className='detox-php-program-flex-right'>
+      <div className='detox-php-program-flex-right gradient-border'>
         <img src={Woman} alt='Smiling Woman' loading='lazy'/>
       </div>
 

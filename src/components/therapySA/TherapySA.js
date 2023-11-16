@@ -1,6 +1,5 @@
 import React from "react";
 import { Link as LinkRoll } from "react-scroll";
-import Fade from "react-reveal/Fade";
 import Zoom from 'react-reveal/Zoom';
 
 import "./TherapySA.css";
@@ -30,7 +29,7 @@ const TherapySA = () => {
           
         <div className="therapy-sa-flex">
 
-          <Fade top duration={3000}>
+        <Zoom duration={2000}>
             <div className="sa-card gradient-border">
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/substance-abuse">
@@ -41,9 +40,9 @@ const TherapySA = () => {
                 <h1>SUBSTANCE ABUSE</h1>
               </div>
             </div>
-          </Fade>
+          </Zoom>
 
-          <Fade bottom duration={3000}>
+          <Zoom duration={2000}>
             <div className="sa-card gradient-border">
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/detox-programs">
@@ -56,9 +55,9 @@ const TherapySA = () => {
                 <h1>DETOX</h1>
               </div>
             </div>
-          </Fade>
+          </Zoom>
 
-          <Fade top duration={3000}>
+          <Zoom duration={2000}>
             <div className="sa-card gradient-border">
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/sober-living">
@@ -71,9 +70,9 @@ const TherapySA = () => {
                 <h1>SOBER LIVINGS</h1>
               </div>
             </div>
-          </Fade>
+          </Zoom>
 
-          <Fade bottom duration={3000}>
+          <Zoom duration={2000}>
             <div className="sa-card gradient-border">
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/jobs">
@@ -86,27 +85,10 @@ const TherapySA = () => {
                 <h1>JOBS PROGRAMS</h1>
               </div>
             </div>
-          </Fade>
+          </Zoom>
 
             </div>
 
-            {/* <div className="therapy-sa-btn">
-                  <LinkRoll
-                    activeClass="active"
-                    to="top"
-                    spy={true}
-                    smooth={true}
-                    duration={500}
-                  >
-                    <Link to="/substance-abuse">
-                      <div className="therapySA-btn">
-                        <button>
-                          VIEW ALL
-                        </button>
-                      </div>
-                    </Link>
-                  </LinkRoll>
-                </div> */}
           </div>
         </div>
     </>

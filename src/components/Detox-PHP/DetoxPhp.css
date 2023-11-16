@@ -27,12 +27,12 @@
 .detox-php .detox-php-content {
     display: block;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     padding: 1rem;
 }
 
 .detox-php h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: rgba(255, 255, 255, 0.75);
     text-align: center;
@@ -51,5 +51,9 @@
 .detox-php h1 {
     font-size: 2rem;
 }
+
+.detox-php {
+    height: 100vh;
+  }
 
 }

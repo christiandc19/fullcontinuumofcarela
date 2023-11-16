@@ -51,20 +51,20 @@ const ContactForm = () => {
         <div className="address details">
           <i className="fas fa-map-marker-alt"></i>
           <div className="topic">Address</div><br/>
-          <div className="text-one"> 68487 E Palm Canyon Dr, STE 44, </div>
-          <div className="text-two">Cathedral City CA 92234</div>
+          <div className="text-one"> 0000 STREET NAME, UNIT #, </div>
+          <div className="text-two">City State 00000</div>
         </div>
 
         <div className="phone details">
           <i className="fas fa-phone-alt"></i>
           <div className="topic">Phone</div><br/>
-          <div className="text-one"><a href="tel:3234521224"> +1 (323) 452-1224</a></div>
+          <div className="text-one"><a href="tel:3234521224"> +1 (123) 456-7890</a></div>
         </div>
 
         <div className="email details">
           <i className="fas fa-envelope"></i>
           <div className="topic">Email</div><br/>
-          <div className="text-one"> Info@PalmSpringsRehab.biz</div>
+          <div className="text-one"> Info@DomainName</div>
         </div>
       </div>
 

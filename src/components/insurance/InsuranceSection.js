@@ -29,7 +29,7 @@ const InsuranceSection = () => {
 
                     <div className='insurance-section-left'>
                         <h1>Our Trusted Network of Insurance Accepted Providers</h1>
-                        <p>At Oxnard Rehab, we understand the importance of accessible healthcare. That's why we have partnered with a wide range of insurance providers to ensure that our services are available to as many individuals and families as possible. Our commitment to your well-being goes beyond just medical care; it extends to making the process of seeking treatment as seamless and stress-free as possible.</p><br/>
+                        <p>At [ Clinic Name ], we understand the importance of accessible healthcare. That's why we have partnered with a wide range of insurance providers to ensure that our services are available to as many individuals and families as possible. Our commitment to your well-being goes beyond just medical care; it extends to making the process of seeking treatment as seamless and stress-free as possible.</p><br/>
 
                         <p>With our extensive network of accepted insurance plans, you can have peace of mind knowing that you're covered. Whether you're in need of routine check-ups, specialized treatments, or emergency care, our network includes some of the most reputable insurance providers in the industry. This means you can focus on what matters most - your health - without the added worry of financial strain.</p>
                     </div>

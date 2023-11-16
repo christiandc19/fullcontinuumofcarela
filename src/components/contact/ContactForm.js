@@ -75,17 +75,17 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 <div className="contact-cards-container">
     
-    <div className="get_form_inner2 card1">
+    <div className="get_form_inner2 card1 gradient-border">
             <h2>CALL US</h2>
             <p><AiOutlinePhone /><a href="tel:3237920535"> +1 (323) 792-0535</a></p>
     </div>
 
-    <div className="get_form_inner2 card2">
+    <div className="get_form_inner2 card2 gradient-border">
             <h2>EMAIL</h2>
             <p><AiOutlineMail /> Info@OxnardRehab.biz  </p><br />
     </div>
 
-    <div className="get_form_inner2 card3">
+    <div className="get_form_inner2 card3 gradient-border">
             <h2>LOCATION</h2>
             <p><BsFillPinMapFill /> 721 S. A Street, 1st Floor, Oxnard CA 93030 </p>
     </div>

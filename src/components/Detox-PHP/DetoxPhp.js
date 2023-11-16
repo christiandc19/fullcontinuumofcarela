@@ -11,7 +11,7 @@ const DetoxPhp = () => {
 
                 <div className="detox-php-content">
                     <Fade top>
-                    <h1>Partial Hospitalization Program</h1>
+                    <h1>PARTIAL HOSPITALIZATION PROGRAM</h1>
                     <p>Bridging Recovery: Explore Our Detox Partial Hospitalization Program</p>
                     </Fade>
             </div>

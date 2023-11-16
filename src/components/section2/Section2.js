@@ -20,14 +20,14 @@ const Section2 = () => {
 
         <div className="section2 container"></div>
 
-        <Zoom duration={2000}>
+        <Zoom duration={1500}>
           <div className="section2-content-left">
             <img src={wrapper1} alt="Mental Health Therapy Session" loading="lazy" />
           </div>
           </Zoom>
 
 
-        <Fade right duration={2000}>
+        <Fade right duration={1500}>
           <div className="section2-content-right">
 
             <p>

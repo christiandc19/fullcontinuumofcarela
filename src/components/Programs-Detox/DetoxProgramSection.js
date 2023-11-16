@@ -20,7 +20,7 @@ const DetoxProgramSection = () => {
             <p>Your safety and well-being are our top priorities. Our team of medical professionals, including doctors, nurses, and addiction specialists, is dedicated to providing expert care throughout the detox process. From thorough assessments to personalized treatment plans, we ensure that you receive the highest standard of medical support as you take the courageous step toward sobriety.</p>
           </div>
 
-      <div className='detox-flex-right'>
+      <div className='detox-flex-right gradient-border'>
         <img src={Man} alt='Smiling Man' loading='lazy'/>
       </div>
 

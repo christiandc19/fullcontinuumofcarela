@@ -7,7 +7,6 @@
   }
   
 
-
 .footer .container {
     display: flex;
     flex-direction: column;
@@ -27,6 +26,11 @@
 .footer .top .logo-footer {
     width: 200px;
     height: auto;
+}
+
+.logo-footer h1 {
+    font-size: 3rem;
+    color: white;
 }
 
 .footer .top .logo-footer img {
@@ -59,7 +63,7 @@
     margin: 1rem 0 2rem 0;
     text-transform: uppercase;
     text-align: center;
-    color: black;
+    color: rgb(150, 89, 10);
     font-size: 1.2rem;
 }
 
@@ -81,9 +85,6 @@
     .footer {
         height: 100%;
     }
-
-
-
 
 
 }

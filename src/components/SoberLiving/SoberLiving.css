@@ -25,8 +25,10 @@
 .sober-living .sober-living-content {
     display: block;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     padding: 1rem;
+    width: 80%;
+
 }
 
 
@@ -37,6 +39,10 @@
     font-weight: 300;
 }
 
+.sober-living  p{
+    color: white;
+    text-align: center;
+}
 
 /* MEDIA QUERIES */
 
@@ -53,4 +59,9 @@
     .sober-living {
         height: 100vh;
       }
+
+      .sober-living .sober-living-content {
+        width: 100%;
+    
+    }
 }

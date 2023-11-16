@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
-import logo from '../../assets/nav-logo-wh2.png'
+// import logo from '../../assets/nav-logo-wh2.png'
 import "./FooterStyles.css";
 
 import { Link as LinkRoll } from "react-scroll";
@@ -13,7 +13,9 @@ const Footer = () => {
         <div className="container">
           <div className="top">
             <div className="logo-footer">
-              <img src={logo} alt="Oxnard Rehab Logo" loading="lazy"/>
+              <h1>LOGO</h1>
+
+              {/* <img src={logo} alt="Oxnard Rehab Logo" loading="lazy"/> */}
             </div>
 
 
@@ -34,67 +36,6 @@ const Footer = () => {
 
 
           <div className="col-container">
-            <div className="col">
-              <h3>COMPANY</h3>
-
-{/* MISSION */}
-
-              <div className="hide">
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/mission">
-                    <p>Our Mission</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/mission">
-                    <p>Our Mission</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-
-{/* ABOUT US */}
-
-              <div className="hide">
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/about-us">
-                    <p>About Us</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/about-us">
-                    <p>About Us</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-
-{/* INSURANCE */}
-
-              <div className="hide">
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="contact">
-                    <p>Contact Us</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/contact">
-                    <p>Contact Us</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-          </div>
-
 
 
 {/* NAVIGATION */}
@@ -104,44 +45,17 @@ const Footer = () => {
 
 {/* HOME */}
 
-              <div className="hide">
+              <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                   <Link to="/">
                     <p>Home</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/">
-                    <p>Home</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-
-{/* INSURANCE */}
-
-              <div className="hide">
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/insurance">
-                    <p>Insurance</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/insurance">
-                    <p>Insurance</p>
                   </Link>
                 </LinkRoll>
               </div>
 
 {/* JOB */}
 
-<div className="hide">
+              <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                   <Link to="/jobs">
                     <p>Job Assistance</p>
@@ -149,10 +63,13 @@ const Footer = () => {
                 </LinkRoll>
               </div>
 
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/jobs">
-                    <p>Job Assistance</p>
+
+{/* CONTACT */}
+
+            <div>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/contact">
+                    <p>Call Us</p>
                   </Link>
                 </LinkRoll>
               </div>
@@ -167,62 +84,36 @@ const Footer = () => {
 
 
             <div className="col">
-              <h3>PROGRAMS</h3>
+              <h3>DETOX PROGRAMS</h3>
 
-{/* PHP */}
+{/* DETOX */}
               <div className="hide">
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/partial-hospitalization-program">
-                    <p>Partial Hospitalization Program</p>
+                  <Link to="/detox-programs">
+                    <p>Detox Programs</p>
                   </Link>
                 </LinkRoll>
               </div>
 
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/partial-hospitalization-program">
-                    <p>Partial Hospitalization Program</p>
-                  </Link>
-                </LinkRoll>
-              </div>  
+{/* RESIDENTIAL */}
 
-
-{/* IOP */}
-
-<div className="hide">
+              <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/intensive-outpatient-program">
-                    <p>Intensive Outpatient Program</p>
+                  <Link to="/residential-programs">
+                    <p>Residential Program</p>
                   </Link>
                 </LinkRoll>
               </div>
 
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/intensive-outpatient-program">
-                    <p>Intensive Outpatient Program</p>
-                  </Link>
-                </LinkRoll>
-              </div> 
+{/* PHP */}
 
-{/* OP */}
-
-<div className="hide">
+            <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/outpatient-program">
-                    <p>Outpatient Program</p>
+                  <Link to="/detox-partial-hospitalization-program">
+                    <p>Partial Hospitalization</p>
                   </Link>
                 </LinkRoll>
               </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/outpatient-program">
-                    <p>Outpatient Program</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
 
             </div>
 
@@ -233,66 +124,37 @@ const Footer = () => {
 
 
             <div className="col">
-              <h3>SERVICES</h3>
+              <h3>SUBSTANCE ADDICTION</h3>
 
 {/* PHP */}
-              <div className="hide">
+              <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/case-management">
-                    <p>Case Management</p>
+                  <Link to="/partial-hospitalization-program">
+                    <p>Partial Hospitalization Program</p>
                   </Link>
                 </LinkRoll>
               </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/case-management">
-                    <p>Case Management</p>
-                  </Link>
-                </LinkRoll>
-              </div>  
-
-
 {/* IOP */}
 
-<div className="hide">
+              <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/crisis-intervention">
-                    <p>Crisis Intervention</p>
+                  <Link to="/intensive-outpatient-program">
+                    <p>Intensive Outpatient program</p>
                   </Link>
                 </LinkRoll>
               </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/crisis-intervention">
-                    <p>Crisis Intervention</p>
-                  </Link>
-                </LinkRoll>
-              </div> 
 
 {/* OP */}
 
-<div className="hide">
+              <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/family-therapy">
-                    <p>Family Therapy</p>
+                  <Link to="/outpatient-program">
+                    <p>Outpatient Program</p>
                   </Link>
                 </LinkRoll>
               </div>
-
-              <div className="show">
-                <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
-                  <Link to="/family-therapy">
-                    <p>Family Therapy</p>
-                  </Link>
-                </LinkRoll>
-              </div>
-
 
             </div>
-
-
 
 
 
@@ -301,7 +163,7 @@ const Footer = () => {
           </div>
           <p className="copyright">
             <p>
-              &copy; 2023 Oxnard Rehab Treatment Center. All rights
+              &copy; 2023 FullContinuumOfCareLA All rights
               reserved
             </p>
           </p>
