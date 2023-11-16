@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fullcontinuumofcarela/static/css/main.f49a2747.css",
+    "main.css": "/fullcontinuumofcarela/static/css/main.beeec45a.css",
     "main.js": "/fullcontinuumofcarela/static/js/main.44b0ae25.js",
     "static/media/alcoholism.webp": "/fullcontinuumofcarela/static/media/alcoholism.81c8f018e0369cf67fe3.webp",
     "static/media/program-sober-living.webp": "/fullcontinuumofcarela/static/media/program-sober-living.44cc53ef48e5e8e2b24b.webp",
@@ -45,11 +45,11 @@
     "static/media/aetna.webp": "/fullcontinuumofcarela/static/media/aetna.403dd7aefa28abeaab83.webp",
     "static/media/horizon.webp": "/fullcontinuumofcarela/static/media/horizon.cbfbfc8b21eb86573ce8.webp",
     "index.html": "/fullcontinuumofcarela/index.html",
-    "main.f49a2747.css.map": "/fullcontinuumofcarela/static/css/main.f49a2747.css.map",
+    "main.beeec45a.css.map": "/fullcontinuumofcarela/static/css/main.beeec45a.css.map",
     "main.44b0ae25.js.map": "/fullcontinuumofcarela/static/js/main.44b0ae25.js.map"
   },
   "entrypoints": [
-    "static/css/main.f49a2747.css",
+    "static/css/main.beeec45a.css",
     "static/js/main.44b0ae25.js"
   ]
 }
