@@ -6,13 +6,12 @@
   padding: 5rem 1rem;
 }
 
-.detox-php-section-section-header p {
+.detox-php-section-header p {
   text-align: justify;
   font-size: 14px;
 }
 
 .detox-php-section-header h1 {
-  text-align: justify;
   font-size: 1rem;
   text-transform: uppercase;
 }
@@ -61,17 +60,23 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:900px) {
-  .detox-php-section-flex {
+  .detox-php-program-section-flex {
     flex-wrap: wrap-reverse;
   }
 
-  .detox-php-flex-left {
+  .detox-php-program-flex-left {
     width: 100%;
   }
   
-  .detox-php-flex-right {
+  .detox-php-program-flex-right {
     width: 100%;
   }
+
+  .detox-php-section-header p {
+    text-align: justify;
+    font-size: 14px;
+  }
+  
 }
 
 

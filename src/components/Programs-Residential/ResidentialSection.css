@@ -6,13 +6,12 @@
   padding: 5rem 1rem;
 }
 
-.residential-section-section-header p {
+.residential-section-header p {
   text-align: justify;
   font-size: 14px;
 }
 
 .residential-section-header h1 {
-  text-align: justify;
   font-size: 1rem;
   text-transform: uppercase;
 }
@@ -59,15 +58,15 @@
 /* MEDIA QUERIES */
 
 @media screen and (max-width:900px) {
-  .residential-section-flex {
+  .residential-program-section-flex {
     flex-wrap: wrap-reverse;
   }
 
-  .residential-flex-left {
+  .residential-program-flex-left {
     width: 100%;
   }
   
-  .residential-flex-right {
+  .residential-program-flex-right {
     width: 100%;
   }
 }

@@ -9,7 +9,7 @@ const ResidentialSection = () => {
 
 <div className='residential-program-section'>
   <div className='residential-program-section-content container'>
-    <div className="residential-program-section-header">
+    <div className="residential-section-header">
       <p>Welcome to our Detox Residential Program, a haven of healing where individuals embark on a transformative journey towards freedom from addiction. Our program combines the safety and structure of residential living with expert detoxification protocols, creating a supportive environment where recovery takes root and blossoms.</p><br/>
       </div>
         <div className='residential-program-section-flex'>

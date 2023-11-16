@@ -9,7 +9,7 @@ const DetoxPhpSection = () => {
 
 <div className='detox-php-program-section'>
   <div className='detox-php-program-section-content container'>
-    <div className="detox-php-php-program-section-header">
+    <div className="detox-php-section-header">
       <p>Welcome to our Detox Partial Hospitalization Program (PHP), a comprehensive and flexible approach to detoxification that blends the intensity of hospital-based care with the flexibility of a supportive community. In this program, individuals find a crucial bridge between the structure of inpatient treatment and the autonomy of daily life, setting the stage for a successful and sustained recovery journey.</p><br/>
       </div>
         <div className='detox-php-program-section-flex'>

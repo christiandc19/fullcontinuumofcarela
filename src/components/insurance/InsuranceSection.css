@@ -5,7 +5,8 @@
     width: 100%;
     height: auto;
     position: relative;
-    /* background: rgb(252, 224, 132); */
+    background-color: rgb(255, 249, 242); 
+    padding: 0 0 3rem 0;
   }
   
   .InsuranceSection:before {

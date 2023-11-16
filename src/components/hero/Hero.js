@@ -32,7 +32,7 @@ const Hero = () => {
                   </Zoom>
 
                   <Zoom duration={3000} delay={1000}>
-                     <h2>Creating Stability in Recovery.</h2>
+                     <h3>Creating Stability in Recovery</h3>
                   </Zoom>
                      <div className='gauges container'>
                      <Zoom duration={3000} delay={1500}>
