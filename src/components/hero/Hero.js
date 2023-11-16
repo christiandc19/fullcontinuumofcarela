@@ -28,14 +28,10 @@ const Hero = () => {
 
                 <div className="content">
                   <Zoom duration={3000}>
-                    <h1>Full Continuum Of Care LA</h1>
-                  </Zoom>
-
-                  <Zoom duration={3000} delay={1000}>
-                     <h3>Creating Stability in Recovery</h3>
+                    <h1>Full Continuum Of Care <br/>Los Angeles</h1>
                   </Zoom>
                      <div className='gauges container'>
-                     <Zoom duration={3000} delay={1500}>
+                     <Zoom duration={3000} delay={1000}>
                         <div className='gauge-container'>
                             <Gauge Gauge="50,000" Name="Homeless Treated" ClassName="homeless"/>
                         </div>
