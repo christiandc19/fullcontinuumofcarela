@@ -6,7 +6,7 @@ const Gauge = (props) => {
         <>
         <section className="gauge">
                 <div>
-                    <h3>{props.Gauge}</h3>
+                    <h2>{props.Gauge}</h2>
                         <div className="bar-container">
                         <div class={props.ClassName}></div>
                     </div>

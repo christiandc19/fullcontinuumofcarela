@@ -17,7 +17,6 @@ const MissionHome = () => {
             life.
           </p>
 
-          <h2>"You're Stronger Than You Think."</h2>
         </div>
       </div>
     </>
