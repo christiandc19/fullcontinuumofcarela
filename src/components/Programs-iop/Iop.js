@@ -11,7 +11,8 @@ const IOP = () => {
         <div className='sa-iop'>
             <div className="sa-iop-content">
                 <Zoom duration={3000}>
-                    <h1>Intensive Outpatient Program</h1>
+                    <h1>INTENSIVE OUTPATIENT PROGRAMS</h1>
+                    <p>Empowering Recovery: Unveiling Our Intensive Outpatient Program for Addiction</p>
                 </Zoom>
             </div>
         </div>

@@ -11,7 +11,7 @@ const PHP = () => {
                 <div className="sa-php-content">
                     <Zoom duration={3000}>
                     <h1>PARTIAL HOSPITALIZATION PROGRAM</h1>
-                    <h2>Comprehensive Healing: The PHP Approach</h2>
+                    <p>Comprehensive Healing: The PHP Approach</p>
                     </Zoom>
                 </div>
             </div>

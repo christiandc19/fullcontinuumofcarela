@@ -26,14 +26,21 @@
 .sa-op .sa-op-content {
     display: block;
     position: absolute;
-    bottom: 20%;
+    bottom: 10%;
     padding: 1rem;
+    width: 60%;
 }
 
 
 .sa-op h1 {
     color: white;
     font-size: 3rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.sa-op p {
+    color: white;
     text-align: center;
     font-weight: 300;
 }
@@ -46,6 +53,11 @@
     .sa-op .sa-op-content h1 {
         font-size: 2rem;
     }
+
+    .sa-op .sa-op-content {
+        width: 90%;
+    }
+    
     
     }
 
@@ -53,4 +65,8 @@
         .sa-op {
             height: 100vh;
           }
+
+        .sa-op .sa-op-content {
+            width: 100%;
+        }
     }
