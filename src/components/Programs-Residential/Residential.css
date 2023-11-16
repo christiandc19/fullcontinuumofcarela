@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+.residential {
+    width: 100%;
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.486);
+    position: relative;
+  }
+  
+  .residential:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/residential.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+  
+
+.residential {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.residential .residential-content {
+    display: block;
+    position: absolute;
+    bottom: 10%;
+    padding: 1rem;
+}
+
+.residential h1 {
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.residential p {
+    color: white;
+    text-align: center;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media screen and (max-width:600px) {
+    
+    .residential {
+        height: 100vh;
+      }
+
+      .residential h1 {
+        font-size: 2rem;
+    }
+
+      .residential .residential-content {
+        bottom: 20%;
+      }
+
+}

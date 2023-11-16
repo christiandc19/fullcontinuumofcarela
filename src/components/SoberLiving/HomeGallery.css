@@ -1,0 +1,35 @@
+.gallery {
+  margin: 40px auto;
+  padding: 20px;
+  max-width: 940px;
+  background: #FFF;
+  overflow-x: hidden;
+}
+
+.title { text-align: center; }
+
+
+
+
+.gallery .image-wrap { 
+    width: 100%; 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+}
+
+.image-wrap img {
+    width: 100%;
+}
+
+
+
+
+
+
+@media screen and (max-width: 700px) {
+    .gallery .image-wrap { 
+        grid-template-columns: auto;
+
+    }
+}

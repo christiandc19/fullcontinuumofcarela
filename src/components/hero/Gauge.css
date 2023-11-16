@@ -1,0 +1,91 @@
+.gauge {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.gauge-container {
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    /* box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6); */
+}
+
+.bar-container {
+    height: 5px;
+    width: 200px;
+    margin-right: 10px;
+    position: relative;
+    background-color: rgb(243, 237, 237);
+    margin-bottom: 0.5rem;
+    border-radius: 7px;
+    margin: auto;
+}
+
+.primary-title h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.gauge h3 {
+    color: white;
+    font-size: 3rem;
+}
+
+.gauge p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+.lang {
+    color: white;
+    padding-top: .5rem;
+}
+
+.bar-container .homeless,
+.bar-container .sober,
+.bar-container .bootstrap,
+.bar-container .nodejs,
+.bar-container .nosql,
+.bar-container .reactjs,
+.bar-container .adobe {
+    position: absolute;
+    height: 100%;
+    margin-right: 10px;
+    background-color: rgb(255, 136, 0);
+    border-radius: 7px;
+}
+
+.homeless {
+    -webkit-animation: progress-homeless 3s forwards;
+            animation: progress-homeless 3s forwards;
+}
+
+@keyframes progress-homeless {
+    from {width:0px;}
+    to {width:80%;}
+}
+
+.sober {
+    -webkit-animation: progress-sober 3s forwards;
+            animation: progress-sober 3s forwards;
+}
+
+@keyframes progress-sober {
+    from {width:0px;}
+    to {width:60%;}
+}
+
+
+
+@media screen and (max-width:700px)  {
+    .gauge h3 {
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .gauge p {
+        font-size: .8rem;
+    }
+}

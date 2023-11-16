@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.detox-php-program-section-content {
+  padding: 5rem 1rem;
+}
+
+.detox-php-section-section-header p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.detox-php-section-header h1 {
+  text-align: justify;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.detox-php-program-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.detox-php-program-flex-left {
+  width: 50%;
+  margin: auto 0;
+}
+
+.detox-php-program-flex-right {
+  width: 500px;
+  margin: auto;
+}
+
+.detox-php-program-flex-right img {
+  width: 100%;
+}
+
+.detox-php-program-flex-left p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.detox-php-program-flex-left h1 {
+  text-align: justify;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:900px) {
+  .detox-php-section-flex {
+    flex-wrap: wrap-reverse;
+  }
+
+  .detox-php-flex-left {
+    width: 100%;
+  }
+  
+  .detox-php-flex-right {
+    width: 100%;
+  }
+}
+
+

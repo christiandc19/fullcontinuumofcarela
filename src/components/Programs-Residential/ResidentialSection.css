@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
+
+
+
+.residential-program-section-content {
+  padding: 5rem 1rem;
+}
+
+.residential-section-section-header p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.residential-section-header h1 {
+  text-align: justify;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.residential-program-section-flex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.residential-program-flex-left {
+  width: 50%;
+  margin: auto 0;
+}
+
+.residential-program-flex-right {
+  width: 500px;
+  margin: auto;
+}
+
+.residential-program-flex-right img {
+  width: 100%;
+}
+
+.residential-program-flex-left p {
+  text-align: justify;
+  font-size: 14px;
+}
+
+.residential-program-flex-left h1 {
+  text-align: justify;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:900px) {
+  .residential-section-flex {
+    flex-wrap: wrap-reverse;
+  }
+
+  .residential-flex-left {
+    width: 100%;
+  }
+  
+  .residential-flex-right {
+    width: 100%;
+  }
+}
+
+
