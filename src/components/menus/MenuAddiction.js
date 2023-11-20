@@ -14,11 +14,11 @@ const MenuAddiction = () => {
 
       <div className="menu-addiction-header">
         <h1>
-          Oxnard Rehab TREATMENT CENTER OFFERS VARIOUS MENTAL HEALTH
+          WE OFFER VARIOUS MENTAL HEALTH
           PROGRAMS
         </h1>
         <p>
-          At Oxnard Rehab Treatment Center, clients receive individual
+          At [ CLINIC NAME ], clients receive individual
           therapy alongside a range of additional treatments, including relapse
           prevention, trauma therapy, mindfulness meditation, transportation,
           yoga, and more. We offer support that clients need to allow them to
@@ -43,16 +43,8 @@ const MenuAddiction = () => {
           <h1>Alcohol Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/alcohol">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/alcohol">
                   <button>Learn More</button>
                 </Link>
@@ -73,16 +65,8 @@ const MenuAddiction = () => {
           <h1>Cocaine Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/cocaine">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/cocaine">
                   <button>Learn More</button>
                 </Link>
@@ -101,16 +85,8 @@ const MenuAddiction = () => {
           <h1>Fentanyl Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/fentanyl">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/fentanyl">
                   <button>Learn More</button>
                 </Link>
@@ -129,16 +105,8 @@ const MenuAddiction = () => {
           <h1>Heroin Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/heroin">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/heroin">
                   <button>Learn More</button>
                 </Link>
@@ -157,16 +125,8 @@ const MenuAddiction = () => {
           <h1>Kratom Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/kratom">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/kratom">
                   <button>Learn More</button>
                 </Link>
@@ -185,16 +145,8 @@ const MenuAddiction = () => {
           <h1>MDMA Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/mdma">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/mdma">
                   <button>Learn More</button>
                 </Link>
@@ -213,16 +165,8 @@ const MenuAddiction = () => {
           <h1>Meth Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/meth">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/meth">
                   <button>Learn More</button>
                 </Link>
@@ -241,16 +185,8 @@ const MenuAddiction = () => {
           <h1>Opiate Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/opiate">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/opiate">
                   <button>Learn More</button>
                 </Link>
@@ -269,16 +205,8 @@ const MenuAddiction = () => {
           <h1>Cocaine Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/opioid">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/opioid">
                   <button>Learn More</button>
                 </Link>
@@ -297,16 +225,8 @@ const MenuAddiction = () => {
           <h1>Oxycodone Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/oxycodone">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/oxycodone">
                   <button>Learn More</button>
                 </Link>
@@ -325,16 +245,8 @@ const MenuAddiction = () => {
           <h1>Prescriptions Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/prescriptions">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/prescriptions">
                   <button>Learn More</button>
                 </Link>
@@ -353,16 +265,8 @@ const MenuAddiction = () => {
           <h1>Cocaine Addiction</h1>
         <div>
 
-        <div className="hide">
+        <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/xanax">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/xanax">
                   <button>Learn More</button>
                 </Link>

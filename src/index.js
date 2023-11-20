@@ -5,7 +5,7 @@ import App from './App';
 
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
-// import AboutPage from './routes/AboutPage'
+import MenuAddiction from './routes/MenuAddiction'
 // import InsurancePage from './routes/InsurancePage'
 import ContactPage from './routes/ContactPage'
 
@@ -77,8 +77,8 @@ root.render(
       <Route exact path='/sober-living' element={<SoberLivingPage />} />
       <Route exact path='/contact' element={<ContactPage />} />
 
-      {/* <Route exact path='/about-us' element={<AboutPage />} />
-      <Route exact path='/insurance' element={<InsurancePage />} /> */}
+      <Route exact path='/substance-abuse-treatment' element={<MenuAddiction />} />
+      {/* <Route exact path='/insurance' element={<InsurancePage />} /> */}
     </Routes>
   </BrowserRouter>,
 );

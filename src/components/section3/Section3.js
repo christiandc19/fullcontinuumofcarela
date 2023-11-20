@@ -3,13 +3,13 @@ import "./Section3.css";
 
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
+import { FaArrowRight } from "react-icons/fa";
 
 import Card1 from "../../assets/program_php.webp";
 import Card2 from "../../assets/program_iop.webp";
 import Card3 from "../../assets/program_op.webp";
 import Card4 from "../../assets/program_case_management.webp";
 import Card5 from "../../assets/program_crisis_intervention.webp";
-import Card6 from "../../assets/program_family_therapy.webp";
 
 
 
@@ -119,26 +119,21 @@ const Section3 = () => {
 
 
 
-{/* Opioid */}
 
-<div class="section3-flexItem">
-                  <img src={Card6} alt="Mental Health" loading="lazy" />
+{/* VIEW ALL */}
+
+<div class="section3-flexItem view-all">
                 <div>
-                  <h1>OPIOID ADDICTION</h1>
-                  <div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                      <Link to="/opioid">
-                        <button>Learn More</button>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                      <Link to="/substance-abuse-treatment">
+                          <h1>VIEW ALL <span><FaArrowRight /></span></h1>
                       </Link>
-                    </LinkRoll>
+                  </LinkRoll>
+
+                  <div>
                   </div>
                 </div>
               </div>
-
-
-
-
-
 
 
 
