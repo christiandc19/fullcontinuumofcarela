@@ -28,7 +28,7 @@ const Hero = () => {
 
                 <div className="content">
                   <Zoom duration={3000}>
-                    <h1>Full Continuum Of Care <br/>Los Angeles</h1>
+                    <h1>Full Continuum Of Care <br/><span><h3>Los Angeles</h3></span></h1>
                   </Zoom>
                      <div className='gauges container'>
                      <Zoom duration={3000} delay={1000}>

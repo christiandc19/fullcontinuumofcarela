@@ -93,7 +93,7 @@
 }
 
   .menu-item .sub__menus li {
-    border-bottom: 1px solid #92b1d3;
+    border-bottom: 1px solid rgb(44,170,159);
     width: 100%;
     padding: 1rem 1.5rem;
   }
@@ -105,7 +105,7 @@
 
 
   .menu-item .sub__menus li a {
-    color: #92b1d3;
+    color: rgb(44,170,159);
     font-size: 13px;
     font-weight: 100;
   }

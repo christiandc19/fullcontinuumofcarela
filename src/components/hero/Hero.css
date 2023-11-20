@@ -68,6 +68,17 @@
     text-align: center;
     color: rgb(228, 216, 216);
     font-family: 'Libre Baskerville', serif;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.37)
+
+}
+
+.hero .content h3 {
+  color: #c27d2efd;
+  font-size: 6rem;
+  font-family: 'Cookie', cursive;
+  letter-spacing: 2px;
+  margin-top: -3rem;
+  text-shadow: 1px 1px 1px rgb(236, 234, 231)
 }
 
 .hero h2 {
@@ -162,6 +173,11 @@
     font-size: 1.5rem;
   }
     
+  .hero .content h3 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-top: -.5rem;
+  }
 
 }
 

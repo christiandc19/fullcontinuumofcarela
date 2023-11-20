@@ -17,13 +17,8 @@ const TherapySA = () => {
         <div className="content container">
 
           <div className="therapy-sa-header">
-            <Zoom duration={3000} delay={1000}>
               <h2>Break Free from Addiction</h2>
-            </Zoom>
-            
-            <Zoom duration={3000} delay={1500}>
               <h1>Explore Our Programs</h1>
-            </Zoom>
             {/* <p>Here at Oxnard Rehab, we offer a full array of affordable drug rehab programs that can take addicts from detox to inpatient or outpatient care and back home again.</p> */}
           </div>
           
