@@ -39,7 +39,16 @@
     font-weight: 300;
 }
 
-.sober-living  p{
+.sober-living span {
+    color: #c27d2efd;
+    font-size: 5rem;
+    font-family: 'Cookie', cursive;
+    letter-spacing: 2px;
+    margin-top: -3rem;
+    text-shadow: 1px 1px 1px rgb(236, 234, 231)
+}
+
+.sober-living  p {
     color: white;
     text-align: center;
 }
@@ -50,6 +59,11 @@
 
     .sober-living .sober-living-content h1 {
         font-size: 2rem;
+    }
+
+    
+    .sober-living span {
+        font-size: 3rem;
     }
     
 }
@@ -62,6 +76,6 @@
 
       .sober-living .sober-living-content {
         width: 100%;
-    
     }
+
 }
