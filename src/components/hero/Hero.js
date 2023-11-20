@@ -19,16 +19,23 @@ const Hero = () => {
       <div className="hero">
 
       <div class="fling-minislide">
-        <img src={Hero1} alt="Slide 1" />
         <img src={Hero2} alt="Slide 2" />
         <img src={Hero3} alt="Slide 3" />
         <img src={Hero4} alt="Slide 4" />
+        <img src={Hero1} alt="Slide 1" />
 
       <div className="hero-container">
 
                 <div className="content">
                   <Zoom duration={3000}>
-                    <h1>Full Continuum Of Care <br/><span><h3>Los Angeles</h3></span></h1>
+                    <h1>Full Continuum Of Care 
+                      <br/>
+                        <span>
+                            <Zoom duration={3000} delay={1000}>
+                              <h3>Los Angeles</h3>
+                            </Zoom>
+                        </span>
+                    </h1>
                   </Zoom>
                      <div className='gauges container'>
                      <Zoom duration={3000} delay={1000}>
