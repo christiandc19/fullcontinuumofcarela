@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fullcontinuumofcarela/static/css/main.2fd1d8b1.css",
-    "main.js": "/fullcontinuumofcarela/static/js/main.dbd5ad6e.js",
+    "main.css": "/fullcontinuumofcarela/static/css/main.5bcd8ade.css",
+    "main.js": "/fullcontinuumofcarela/static/js/main.04c49952.js",
     "static/media/alcoholism.webp": "/fullcontinuumofcarela/static/media/alcoholism.81c8f018e0369cf67fe3.webp",
     "static/media/program-sober-living.webp": "/fullcontinuumofcarela/static/media/program-sober-living.44cc53ef48e5e8e2b24b.webp",
     "static/media/program-jobs.webp": "/fullcontinuumofcarela/static/media/program-jobs.c1c5b6040313223bc752.webp",
@@ -11,6 +11,7 @@
     "static/media/program-detox.webp": "/fullcontinuumofcarela/static/media/program-detox.a38e0287bfb93ad8aa55.webp",
     "static/media/sober-living-hero.webp": "/fullcontinuumofcarela/static/media/sober-living-hero.f4c9079af80f49556f08.webp",
     "static/media/residential.webp": "/fullcontinuumofcarela/static/media/residential.ef2056c4ec02749765bb.webp",
+    "static/media/logo.png": "/fullcontinuumofcarela/static/media/logo.fe3140197d477aafb20c.png",
     "static/media/detox-php-section.webp": "/fullcontinuumofcarela/static/media/detox-php-section.05513755a3632e4f450d.webp",
     "static/media/residential-section1.webp": "/fullcontinuumofcarela/static/media/residential-section1.e489d8755b1b20f36526.webp",
     "static/media/hero-bg1.webp": "/fullcontinuumofcarela/static/media/hero-bg1.f6af1b8fab478b0dedd0.webp",
@@ -45,11 +46,11 @@
     "static/media/aetna.webp": "/fullcontinuumofcarela/static/media/aetna.403dd7aefa28abeaab83.webp",
     "static/media/horizon.webp": "/fullcontinuumofcarela/static/media/horizon.cbfbfc8b21eb86573ce8.webp",
     "index.html": "/fullcontinuumofcarela/index.html",
-    "main.2fd1d8b1.css.map": "/fullcontinuumofcarela/static/css/main.2fd1d8b1.css.map",
-    "main.dbd5ad6e.js.map": "/fullcontinuumofcarela/static/js/main.dbd5ad6e.js.map"
+    "main.5bcd8ade.css.map": "/fullcontinuumofcarela/static/css/main.5bcd8ade.css.map",
+    "main.04c49952.js.map": "/fullcontinuumofcarela/static/js/main.04c49952.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fd1d8b1.css",
-    "static/js/main.dbd5ad6e.js"
+    "static/css/main.5bcd8ade.css",
+    "static/js/main.04c49952.js"
   ]
 }
