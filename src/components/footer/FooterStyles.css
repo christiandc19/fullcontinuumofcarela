@@ -3,7 +3,7 @@
     width: 100%;
     height: auto;
     position: relative;
-    background-color: #92b1d3;  
+    background-color: #000000;  
   }
   
 
@@ -24,7 +24,7 @@
 }
 
 .footer .top .logo-footer {
-    width: 200px;
+    width: 250px;
     height: auto;
 }
 
@@ -63,7 +63,7 @@
     margin: 1rem 0 2rem 0;
     text-transform: uppercase;
     text-align: center;
-    color: rgb(150, 89, 10);
+    color: rgb(255, 174, 0);
     font-size: 1.2rem;
 }
 

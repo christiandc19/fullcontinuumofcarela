@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
-// import logo from '../../assets/nav-logo-wh2.png'
+import logo from '../../assets/logo.png'
 import "./FooterStyles.css";
 
 import { Link as LinkRoll } from "react-scroll";
@@ -13,9 +13,7 @@ const Footer = () => {
         <div className="container">
           <div className="top">
             <div className="logo-footer">
-              <h1>LOGO</h1>
-
-              {/* <img src={logo} alt="Oxnard Rehab Logo" loading="lazy"/> */}
+              <img src={logo} alt="Oxnard Rehab Logo" loading="lazy"/>
             </div>
 
 
