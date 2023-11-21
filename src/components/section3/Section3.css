@@ -48,7 +48,6 @@
 
 .section3-flexItem h1 {
     color: rgb(0, 0, 0);
-    text-transform: uppercase;
     font-size: 1rem;
     font-weight: 300;
     padding: .5rem 0;
@@ -68,12 +67,16 @@
 }
 
 .section3-flexItem button:hover {
-    background-color: rgb(255, 136, 0);
+    background-color: #5b8fb6;
     border: none;
 }
 
 .view-all {
     margin: auto 0;
+}
+
+.view-all span {
+    color: #7CB9E8;
 }
 
 

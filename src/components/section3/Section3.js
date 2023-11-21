@@ -126,7 +126,7 @@ const Section3 = () => {
                 <div>
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                       <Link to="/substance-abuse-treatment">
-                          <h1>VIEW ALL <span><FaArrowRight /></span></h1>
+                          <h1>View All <span><FaArrowRight /></span></h1>
                       </Link>
                   </LinkRoll>
 
