@@ -13,7 +13,11 @@ const Footer = () => {
         <div className="container">
           <div className="top">
             <div className="logo-footer">
-              <img src={logo} alt="Oxnard Rehab Logo" loading="lazy"/>
+              <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                <Link to='/'>
+                  <img src={logo} alt="Oxnard Rehab Logo" loading="lazy"/>
+                </Link>
+              </LinkRoll>
             </div>
 
 

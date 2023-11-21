@@ -48,9 +48,6 @@ const Navbar = () => {
             <div className='nav-box'>
 
                         <div className="navbar-logo">
-                                {/* <Link to='/'>
-                                <h1>LOGO<span>HERE</span></h1>
-                                </Link> */}
                             <Link to='/'>
                             <img src={logo} alt="Oxnard Logo" loading="lazy"/>
                             </Link>
