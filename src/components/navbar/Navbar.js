@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FaTimes } from 'react-icons/fa'
 import { BiMenuAltRight } from 'react-icons/bi'
 import {NavLink, Link} from 'react-router-dom'
-// import logo from '../../assets/nav-logo-wh2.png'
+import logo from '../../assets/logo.png'
 import {BsFillCaretDownFill } from "react-icons/bs";
 // import Topbar from '../../components/topbar/Topbar';
 
@@ -48,12 +48,12 @@ const Navbar = () => {
             <div className='nav-box'>
 
                         <div className="navbar-logo">
-                                <Link to='/'>
+                                {/* <Link to='/'>
                                 <h1>LOGO<span>HERE</span></h1>
-                                </Link>
-                            {/* <Link to='/'>
+                                </Link> */}
+                            <Link to='/'>
                             <img src={logo} alt="Oxnard Logo" loading="lazy"/>
-                            </Link> */}
+                            </Link>
 
                         </div>
 
