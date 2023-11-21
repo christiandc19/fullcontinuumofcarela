@@ -40,7 +40,7 @@ const Hero = () => {
                      <div className='gauges container'>
                      <Zoom duration={3000} delay={1000}>
                         <div className='gauge-container'>
-                            <Gauge Gauge="50,000" Name="Homeless Treated" ClassName="homeless"/>
+                            <Gauge Gauge="50,000 +" Name="Homeless Treated" ClassName="homeless"/>
                         </div>
 
                         <div className='gauge-container'>
