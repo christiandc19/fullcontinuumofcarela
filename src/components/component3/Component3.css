@@ -37,11 +37,11 @@
 }
 
 .c3-left h1 {
-    font-size: 1.5rem;
-    color: var(--primary-color);
+    font-size: 3.5rem;
+    color: #92b1d3;
     text-align: left;
-    text-transform: uppercase;
-    font-family: 'Bacasime Antique', serif;
+    font-family: 'Cookie', cursive;
+    font-weight: 300;
 }
 
 .c3-left h5 {
@@ -103,6 +103,7 @@
 
     .c3-left h1 {
         text-align: center;
+        font-size: 2rem;
     }
 
     .c3-left h2 {

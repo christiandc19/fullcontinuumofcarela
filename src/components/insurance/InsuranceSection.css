@@ -12,10 +12,10 @@
   .InsuranceSection:before {
     content: '';
     position: absolute;
-    /* background: url('../../assets/section-bg.webp') no-repeat center center/cover; */
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
-    opacity: .06;
+    opacity: .03;
   }
 
 
