@@ -73,9 +73,6 @@
 .navbar li {
     width: max-content;
     padding: 0 .5rem;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
 }
 
 .navbar li a {
@@ -166,7 +163,7 @@
         left:-100%;
         justify-content: center;
         align-items: center;
-        background: #92b1d3;
+        background: rgb(128, 83, 0);
         transition: 0.5s ease-in;
         color: white;
     }
@@ -182,7 +179,7 @@
 
 
     .sub__menus {
-      background-color: #ffffff;
+      background-color: #000000;
     }
 
     .menu-item .sub__menus li {
