@@ -14,10 +14,12 @@ const home = () => {
   return (
     <>
     <TherapySA />
-    <Component3 />
-    <Section2 />
-    <Section3 />
     <Section4 />
+    <Section2 />
+    <Component3 />
+
+    <Section3 />
+    {/* <Section4 /> */}
     <InsuranceSection />
     <MissionHome />
     <ContactForm />

@@ -76,8 +76,12 @@
     margin: auto;
     font-size: 1.5rem;
     padding: 1rem;
-    color: white;
+    color: orange;
     cursor: pointer;
+  }
+
+  .image-slider .arrow:hover {
+    color: white;
   }
 
     .slider-btn button {
