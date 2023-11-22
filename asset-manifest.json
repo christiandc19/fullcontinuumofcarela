@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/fullcontinuumofcarela/static/css/main.eec8630e.css",
-    "main.js": "/fullcontinuumofcarela/static/js/main.2b470942.js",
+    "main.css": "/fullcontinuumofcarela/static/css/main.b65c0759.css",
+    "main.js": "/fullcontinuumofcarela/static/js/main.1a201594.js",
     "static/media/alcoholism.webp": "/fullcontinuumofcarela/static/media/alcoholism.81c8f018e0369cf67fe3.webp",
     "static/media/program-sober-living.webp": "/fullcontinuumofcarela/static/media/program-sober-living.44cc53ef48e5e8e2b24b.webp",
     "static/media/program-jobs.webp": "/fullcontinuumofcarela/static/media/program-jobs.c1c5b6040313223bc752.webp",
@@ -50,11 +50,11 @@
     "static/media/aetna.webp": "/fullcontinuumofcarela/static/media/aetna.403dd7aefa28abeaab83.webp",
     "static/media/horizon.webp": "/fullcontinuumofcarela/static/media/horizon.cbfbfc8b21eb86573ce8.webp",
     "index.html": "/fullcontinuumofcarela/index.html",
-    "main.eec8630e.css.map": "/fullcontinuumofcarela/static/css/main.eec8630e.css.map",
-    "main.2b470942.js.map": "/fullcontinuumofcarela/static/js/main.2b470942.js.map"
+    "main.b65c0759.css.map": "/fullcontinuumofcarela/static/css/main.b65c0759.css.map",
+    "main.1a201594.js.map": "/fullcontinuumofcarela/static/js/main.1a201594.js.map"
   },
   "entrypoints": [
-    "static/css/main.eec8630e.css",
-    "static/js/main.2b470942.js"
+    "static/css/main.b65c0759.css",
+    "static/js/main.1a201594.js"
   ]
 }
