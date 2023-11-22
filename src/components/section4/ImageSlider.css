@@ -35,8 +35,6 @@
     font-size: 14px;
   }
 
-
-
 .image-slider-flex {
     display: flex;
     justify-content: center;
@@ -79,10 +77,16 @@
     color: white;
   }
 
-
     .slider-btn button {
-    padding: .5rem 2rem;
+    padding: .4rem 1.5rem;
   }
+
+  .slider-btn button:hover {
+    background-color: white;
+    border-color: white;
+    color: var(--secondary-color);
+  }
+
 
 
     .section4 {

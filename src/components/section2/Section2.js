@@ -9,27 +9,27 @@ import { Link as LinkRoll } from "react-scroll";
 import { AiOutlineCheck } from 'react-icons/ai';
 
 
-import wrapper1 from "../../assets/calm_woman.webp";
+import Woman from "../../assets/smiling_woman.webp";
 
 const Section2 = () => {
   return (
     <>
 
       
-        <div className="section2-content container">
 
-        <div className="section2 container"></div>
+        <div className="section2 container">
+        <div className="section2-content container">
 
         <Zoom duration={1500}>
           <div className="section2-content-left">
-            <img src={wrapper1} alt="Mental Health Therapy Session" loading="lazy" />
+              <img src={Woman} alt="smiling woman"/>
           </div>
           </Zoom>
 
 
         <Fade right duration={1500}>
           <div className="section2-content-right">
-
+            <h1>WHAT WE DO</h1>
             <p>
             We recognize that every person is unique, and their path to recovery should reflect that individuality. Our programs are tailored to meet the specific needs of each client, ensuring a personalized and effective approach to recovery. By addressing the physical, emotional, and psychological aspects of addiction, we empower individuals to achieve lasting recovery.
             </p>
@@ -60,7 +60,7 @@ const Section2 = () => {
                   </div>
           </div>
           </Fade>
-
+          </div>
         </div>
     </>
   );

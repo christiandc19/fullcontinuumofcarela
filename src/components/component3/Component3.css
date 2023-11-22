@@ -27,7 +27,7 @@
 }
 
 .c3-left {
-    width: 40%;
+    width: 50%;
     margin: auto;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .c3-left h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     color: var(--primary-color);
     text-align: left;
     text-transform: uppercase;
@@ -56,7 +56,7 @@
 }
 
 .c3-right {
-    width: 700px;
+    width: 500px;
     margin: auto;
 }
 
@@ -71,7 +71,11 @@
 
 .c3-right-img img {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 39px -15px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 2px 2px 39px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 39px -15px rgba(0,0,0,0.75);
+
 }
 
 
