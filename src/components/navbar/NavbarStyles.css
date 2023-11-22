@@ -93,25 +93,24 @@
 }
 
   .menu-item .sub__menus li {
-    border-bottom: 1px solid rgb(44,170,159);
+    border-bottom: 1px solid #ffffff9a;
     width: 100%;
     padding: 1rem 1.5rem;
   }
 
   .menu-item .sub__menus li:hover {
-    border-bottom: 1px solid #c5b9a3;
     width: 100%;
   }
 
 
   .menu-item .sub__menus li a {
-    color: rgb(44,170,159);
+    color: rgb(255, 255, 255);
     font-size: 13px;
     font-weight: 100;
   }
 
   .menu-item .sub__menus li a:hover {
-    color: rgb(8, 8, 8) !important;
+    color: rgb(223, 134, 17) !important;
     font-weight: 500;
 
   }
@@ -129,7 +128,7 @@
 .sub__menus {
     position: absolute;
     display: none;
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     width: max-content;
     padding: 2px 0 0 0;
     margin-top: 6px;

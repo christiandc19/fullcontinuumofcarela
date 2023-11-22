@@ -90,7 +90,10 @@
     color: var(--secondary-color);
   }
 
-
+.image-slider-right ul {
+  padding-left: 0;
+  color: white;
+}
 
     .section4 {
     padding: 3rem 0;

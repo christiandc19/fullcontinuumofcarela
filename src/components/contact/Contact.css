@@ -25,8 +25,12 @@
     padding: 1rem;
 }
 
+.contact-hero .contact-hero-content span {
+    color: orange;
+}
+
 .contact-hero h1 {
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
@@ -53,7 +57,7 @@
 }
 
 .contact-hero h1 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .contact-hero .contact-hero-content {

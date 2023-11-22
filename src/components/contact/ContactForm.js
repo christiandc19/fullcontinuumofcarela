@@ -88,7 +88,7 @@ feedbackEl.setAttribute("class", "feedback hidden");
                               </div>
 
                               <div className="textarea2 feedback hidden">
-                                    <textarea name="message2" cols="30" rows="3" required>Message Sent to Oxnard Rehab!</textarea>
+                                    <textarea name="message2" cols="30" rows="3" required>Message Sent!</textarea>
                               </div>
                             </form>
                         </div>
