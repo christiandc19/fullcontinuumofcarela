@@ -75,7 +75,13 @@
 }
 
 .view-all {
-    margin: auto 0;
+    margin: auto;
+}
+
+.view-all h1 {
+    font-size: .8rem;
+    letter-spacing: 2px;
+    color: #5b8fb6;
 }
 
 .view-all span {

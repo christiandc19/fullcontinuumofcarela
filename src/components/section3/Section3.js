@@ -122,33 +122,19 @@ const Section3 = () => {
 
 {/* VIEW ALL */}
 
-<div class="section3-flexItem view-all">
-                <div>
+          </div>
+
+
+          <div class="section3-flexItem view-all">
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                       <Link to="/substance-abuse-treatment">
-                          <h1>View All <span><FaArrowRight /></span></h1>
+                          <h1>VIEW ALL <span><FaArrowRight /></span></h1>
                       </Link>
                   </LinkRoll>
-
-                  <div>
-                  </div>
-                </div>
-              </div>
+          </div>    
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-          </div>
         </div>
       </div>
 
