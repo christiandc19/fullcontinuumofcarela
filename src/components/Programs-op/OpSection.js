@@ -13,10 +13,10 @@ const OpSection = () => {
 
             <div className="op-section-header">
               <h1>Oxnard Rehab: Outpatient Treatment</h1>
-              <p>Welcome to Oxnard Rehab's Outpatient Treatment Program! We are dedicated to providing high-quality, personalized care to support individuals on their journey to recovery. Our outpatient program offers flexible scheduling and a range of evidence-based therapies tailored to meet your unique needs.</p><br/>
+              <p>Welcome to [Clinic Name] Outpatient Treatment Program! We are dedicated to providing high-quality, personalized care to support individuals on their journey to recovery. Our outpatient program offers flexible scheduling and a range of evidence-based therapies tailored to meet your unique needs.</p><br/>
               <p>Oxnard Rehab is dedicated to your well-being and committed to walking alongside you on this path to healing. We believe in your strength and resilience, and together, we will work towards a brighter, addiction-free future.</p>
               <h1>About Us</h1>
-              <p>At Oxnard Rehab, we believe in a holistic approach to recovery, addressing not only the physical aspects of addiction but also the emotional, mental, and social factors that contribute to it. Our team of experienced professionals is committed to creating a safe and supportive environment for individuals seeking outpatient treatment.</p>
+              <p>At [Clinic Name], we believe in a holistic approach to recovery, addressing not only the physical aspects of addiction but also the emotional, mental, and social factors that contribute to it. Our team of experienced professionals is committed to creating a safe and supportive environment for individuals seeking outpatient treatment.</p>
             </div>
 
         <div className="op-section-flex">
@@ -31,7 +31,7 @@ const OpSection = () => {
             <p><span><BsCheckLg /></span><b> Evidence-Based Approaches</b>: We employ scientifically-proven therapies and techniques to ensure the best possible outcomes.</p>
             <h1>Getting Started</h1>
             <p>Taking the first step towards recovery is a courageous decision. To get started with our Outpatient Treatment Program, please contact us at <a href='tel:3239025644'>+1 (323) 452-1224</a> to schedule an initial assessment. Our team will work with you to create a personalized treatment plan that aligns with your goals.</p><br/>
-            <p>At Oxnard Rehab, we are here to support you every step of the way. Regain control of your life and start your journey to lasting recovery with us.</p>
+            <p>At [Clinic Name], we are here to support you every step of the way. Regain control of your life and start your journey to lasting recovery with us.</p>
 
           </div>
 

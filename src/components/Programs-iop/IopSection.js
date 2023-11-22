@@ -11,21 +11,21 @@ const IopSection = () => {
       <div className="iop-section-content container">
 
             <div className="iop-section-header">
-              <h1>Welcome to Oxnard Rehab's Intensive Outpatient Program</h1>
-              <p>Our Intensive Outpatient Program (IOP) at Oxnard Rehab is designed for individuals seeking a structured and supportive path to recovery from substance abuse and addiction. Tailored to your unique needs, our program combines evidence-based therapies with a holistic approach, addressing not only the symptoms of addiction but also the underlying factors that contribute to it. With flexible scheduling options and a team of dedicated professionals, we're here to guide you towards a healthier, more fulfilling life.</p><br/>
-              <p>Oxnard Rehab is dedicated to your well-being and committed to walking alongside you on this path to healing. We believe in your strength and resilience, and together, we will work towards a brighter, addiction-free future.</p>
+              <h1>Welcome to our Intensive Outpatient Program</h1>
+              <p>Our Intensive Outpatient Program (IOP) at [Clinic Name] is designed for individuals seeking a structured and supportive path to recovery from substance abuse and addiction. Tailored to your unique needs, our program combines evidence-based therapies with a holistic approach, addressing not only the symptoms of addiction but also the underlying factors that contribute to it. With flexible scheduling options and a team of dedicated professionals, we're here to guide you towards a healthier, more fulfilling life.</p><br/>
+              <p>[Clinic Name] is dedicated to your well-being and committed to walking alongside you on this path to healing. We believe in your strength and resilience, and together, we will work towards a brighter, addiction-free future.</p>
               <h1>Why Choose Oxnard Rehab's IOP?</h1>
-              <p>At Oxnard Rehab, we understand that the journey to recovery is deeply personal. Our IOP offers a balanced blend of group therapy and one-on-one counseling, providing a safe and confidential space for exploration and healing. With a team of experienced therapists and a comprehensive range of therapeutic modalities, including Cognitive Behavioral Therapy (CBT) and Mindfulness-Based Stress Reduction (MBSR), we empower you to develop the skills and resilience needed for sustained recovery. Whether you're taking your first steps towards a substance-free life or seeking continued support, Oxnard Rehab is here to stand by your side every step of the way.</p>
+              <p>At [Clinic Name], we understand that the journey to recovery is deeply personal. Our IOP offers a balanced blend of group therapy and one-on-one counseling, providing a safe and confidential space for exploration and healing. With a team of experienced therapists and a comprehensive range of therapeutic modalities, including Cognitive Behavioral Therapy (CBT) and Mindfulness-Based Stress Reduction (MBSR), we empower you to develop the skills and resilience needed for sustained recovery. Whether you're taking your first steps towards a substance-free life or seeking continued support, [Clinic Name] is here to stand by your side every step of the way.</p>
             </div>
 
         <div className="iop-section-flex">
 
           <div className="iop-section-flex-left">
             <h1>Intensive Outpatient Program (IOP) at Oxnard Rehab</h1>
-            <p>Oxnard Rehab's Intensive Outpatient Program (IOP) is a dynamic and highly effective approach to addiction treatment, designed to provide comprehensive support for individuals on their path to recovery. Our IOP is tailored to accommodate busy lifestyles, allowing individuals to engage in intensive therapy while maintaining their daily routines. With a focus on evidence-based modalities and a compassionate, experienced team, we empower individuals to regain control of their lives.</p><br/>
+            <p>Our Intensive Outpatient Program (IOP) is a dynamic and highly effective approach to addiction treatment, designed to provide comprehensive support for individuals on their path to recovery. Our IOP is tailored to accommodate busy lifestyles, allowing individuals to engage in intensive therapy while maintaining their daily routines. With a focus on evidence-based modalities and a compassionate, experienced team, we empower individuals to regain control of their lives.</p><br/>
 
             <h1>Comprehensive and Personalized Care</h1>
-            <p>At Oxnard Rehab, we understand that every individual's journey to recovery is unique. That's why our Intensive Outpatient Program is meticulously crafted to address the specific needs and challenges of each participant. Through a combination of group therapy and individual counseling, we delve into the underlying causes of addiction, equipping individuals with practical coping strategies and life skills. Our evidence-based therapies, including Cognitive Behavioral Therapy (CBT) and Motivational Enhancement Therapy (MET), form the cornerstone of our program, fostering lasting recovery and personal growth.</p><br/>
+            <p>At [Clinic Name], we understand that every individual's journey to recovery is unique. That's why our Intensive Outpatient Program is meticulously crafted to address the specific needs and challenges of each participant. Through a combination of group therapy and individual counseling, we delve into the underlying causes of addiction, equipping individuals with practical coping strategies and life skills. Our evidence-based therapies, including Cognitive Behavioral Therapy (CBT) and Motivational Enhancement Therapy (MET), form the cornerstone of our program, fostering lasting recovery and personal growth.</p><br/>
 
             <h1>Flexibility for Lasting Results</h1>
             <p>We recognize that life doesn't pause during the recovery process. That's why our IOP offers flexible scheduling options, allowing individuals to attend therapy sessions at times that best fit their commitments. This flexibility empowers individuals to actively engage in their treatment while continuing to fulfill their responsibilities at work, school, and home. At Oxnard Rehab, we believe that by integrating recovery seamlessly into daily life, individuals can build a foundation for lasting sobriety and a brighter future.</p>
@@ -40,7 +40,7 @@ const IopSection = () => {
 
         <div className="iop-section-header">
               <h1>What Are the Benefits of an Intensive Outpatient Program (IOP)?</h1>
-              <p>Oxnard Rehab's Intensive Outpatient Program (IOP) is a highly effective and flexible approach to addiction treatment, offering a range of benefits that empower individuals on their journey to recovery.</p><br/>
+              <p>Our Intensive Outpatient Program (IOP) is a highly effective and flexible approach to addiction treatment, offering a range of benefits that empower individuals on their journey to recovery.</p><br/>
 
 
               <h2>1. Comprehensive Support with Flexibility</h2>

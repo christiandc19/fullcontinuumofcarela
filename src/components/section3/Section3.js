@@ -19,7 +19,7 @@ const Section3 = () => {
       <div className="section3 container">
         <div className="section3-content container">
 
-          <div className="menu-programs-header container">
+          <div className="section3-header container">
               <h1>
                 Substance Addiction We Treat
               </h1>

@@ -34,10 +34,8 @@ const Section2 = () => {
             We recognize that every person is unique, and their path to recovery should reflect that individuality. Our programs are tailored to meet the specific needs of each client, ensuring a personalized and effective approach to recovery. By addressing the physical, emotional, and psychological aspects of addiction, we empower individuals to achieve lasting recovery.
             </p>
             <ul>
-              <li><span><AiOutlineCheck/> </span>50,000 Homeless Treated</li>
-              <li><span><AiOutlineCheck/> </span>60% Sober,  Working and off the streets.</li>
               <li><span><AiOutlineCheck/> </span>House Managers on site</li>
-              <li><span><AiOutlineCheck/> </span>Food</li>
+              <li><span><AiOutlineCheck/> </span> Providing nutritious and balanced meals</li>
               <li><span><AiOutlineCheck/> </span>Doctor visit within 72 hours</li>
               <li><span><AiOutlineCheck/> </span>Med co-pays</li>
               <li><span><AiOutlineCheck/> </span>Doctor follow up visit as needed</li>
