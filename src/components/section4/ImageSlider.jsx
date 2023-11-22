@@ -22,6 +22,8 @@ const ImageSlider = ({ images }) => {
 
   return (
     <>
+    <div className='slider-bg'>
+
     <div className='image-slider-flex container'>
         
         <div className="image-slider">
@@ -52,6 +54,7 @@ const ImageSlider = ({ images }) => {
 
     </div>
 
+    </div>
 
 
 
