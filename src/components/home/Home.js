@@ -5,6 +5,7 @@ import ContactForm from '../contact/ContactForm';
 import MissionHome from '../mission/MissionHome';
 import TherapySA from '../therapySA/TherapySA';
 import Section3 from '../section3/Section3';
+import Section4 from '../section4/Section4';
 import Component3 from '../component3/Component3';
 
 
@@ -13,6 +14,7 @@ const home = () => {
   return (
     <>
     <TherapySA />
+    <Section4 />
     <Section2 />
     <Component3 />
     <Section3 />

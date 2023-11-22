@@ -51,7 +51,7 @@ const Section2 = () => {
               <li><span><AiOutlineCheck/> </span>Job training/coaching</li>
               <li><span><AiOutlineCheck/> </span>Job Placement</li>
             </ul>
-            <div>
+                  <div>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                       <Link to="/contact">
                         <button>Call Us</button>
