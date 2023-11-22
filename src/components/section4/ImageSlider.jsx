@@ -23,6 +23,10 @@ const ImageSlider = ({ images }) => {
   return (
     <>
     <div className='slider-bg'>
+        <div className='image-slider-header container'>
+            <h1>Check Out Our Los Angeles Sober Living Homes</h1>
+            <p>At Our Sober Living Homes, we understand that the journey to recovery is unique for each individual. Our mission is to provide a supportive and nurturing environment for those transitioning from addiction treatment to independent living.</p>
+        </div>
 
     <div className='image-slider-flex container'>
         
@@ -37,8 +41,8 @@ const ImageSlider = ({ images }) => {
         </div>
 
         <div className='image-slider-right'>
-            <h1>Sober Living</h1>
-            <p>Nestled amidst the vibrant tapestry of Los Angeles, our Sober Living Homes stand as beacons of hope, offering a supportive and nurturing environment for those navigating the delicate path of recovery. In this city of dreams, our homes become the foundation upon which individuals rebuild their lives.</p>
+            <h1>What Sets Us Apart</h1>
+            <p>Our sober living homes are more than just a place to stay—they are a community that fosters growth, connection, and healing. Located in the heart of Los Angeles, our homes offer a safe and structured environment where residents can build a strong foundation for their recovery.</p>
 
                 <div className='slider-btn'>
                     <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
