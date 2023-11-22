@@ -14,12 +14,11 @@ const TherapySA = () => {
   return (
     <>
       <div className="therapy-sa">
-        <div className="content container">
+        <div className="therapy-sa-content container">
 
           <div className="therapy-sa-header">
               <h2>Break Free from Addiction</h2>
               <h1>Explore Our Programs</h1>
-            {/* <p>Here at Oxnard Rehab, we offer a full array of affordable drug rehab programs that can take addicts from detox to inpatient or outpatient care and back home again.</p> */}
           </div>
           
         <div className="therapy-sa-flex">

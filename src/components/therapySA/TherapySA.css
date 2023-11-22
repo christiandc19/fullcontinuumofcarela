@@ -3,10 +3,13 @@
 .therapy-sa {
     width: 100%;
     height: auto;
-    padding: 5rem 0;
     background-color: rgb(255, 255, 255);
 }
   
+.therapy-sa-content {
+    height: auto;
+    padding: 5rem 0;
+}
 
   .therapy-sa-header h1 {
     text-align: center;
