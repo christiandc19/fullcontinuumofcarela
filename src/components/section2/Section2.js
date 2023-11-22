@@ -27,7 +27,7 @@ const Section2 = () => {
           </Zoom>
 
 
-        <Fade right duration={1500}>
+        <Fade bottom duration={1500}>
           <div className="section2-content-right">
             <h1>WHAT WE DO</h1>
             <p>
