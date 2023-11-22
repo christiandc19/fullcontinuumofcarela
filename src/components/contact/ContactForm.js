@@ -42,56 +42,61 @@ feedbackEl.setAttribute("class", "feedback hidden");
 
 <section className="container">
 <div>
-      <div className="footer_get_touch_inner">
-          <div className="get_form_inner">
-            <div className="get_form_inner_text">
-              <h3>Get In Touch</h3>
-              <p><i>We'll keep your contact information strictly confidential.</i></p><br/>
+
+          <div className="contact-form-flex">
+
+                    <div className="contact-form-left">
+                      <div className="contact-cards-container">
+      
+                        <div className="get_form_inner2 card1 gradient-border">
+                                <h2>CALL US</h2>
+                                <p><AiOutlinePhone /><a href="tel:3237920535"> +1 (123) 456-7890</a></p>
+                        </div>
+
+                        <div className="get_form_inner2 card2 gradient-border">
+                                <h2>EMAIL</h2>
+                                <p><AiOutlineMail /> Info@DomainName.com  </p><br />
+                        </div>
+
+                        <div className="get_form_inner2 card3 gradient-border">
+                                <h2>LOCATION</h2>
+                                <p><BsFillPinMapFill /> 123 S.Street Name, City CA 00000 </p>
+                        </div>
+
+                    </div>
+
+                    </div>
+
+                    <div className="contact-form-right">
+                        <div className="get_form_inner">
+                            <div className="get_form_inner_text">
+                              <h3>Get In Touch</h3>
+                              <p><i>We'll keep your contact information strictly confidential.</i></p><br/>
+                            </div>
+
+                            <form ref={form} onSubmit={sendEmail}>
+                              <div className="inputs">
+                                <input type="text" name='name' placeholder='Your Name' required /> <br/>
+                                <input type="text" name='email' placeholder='Your Email' required /> <br/>
+                                <input type="tel" name='phone' placeholder='Your Phone' required /> <br/>
+                                <input type="text" name='subject' placeholder='Subject' required /> <br/>
+                              </div>
+
+                              <div>
+                                <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>
+                                <input type="submit" value="Submit" />
+                              </div>
+
+                              <div className="textarea2 feedback hidden">
+                                    <textarea name="message2" cols="30" rows="3" required>Message Sent to Oxnard Rehab!</textarea>
+                              </div>
+                            </form>
+                        </div>
+                    </div>
+
             </div>
-            <form ref={form} onSubmit={sendEmail}>
-              <div className="inputs">
-                <input type="text" name='name' placeholder='Your Name' required /> <br/>
-                <input type="text" name='email' placeholder='Your Email' required /> <br/>
-                <input type="tel" name='phone' placeholder='Your Phone' required /> <br/>
-                <input type="text" name='subject' placeholder='Subject' required /> <br/>
-
-              </div>
-              <div>
-                <textarea name="message" placeholder="How can we help?" cols="30" rows="10" required></textarea>
-                <input type="submit" value="Submit" />
-              </div>
-
-              <div className="textarea2 feedback hidden">
-                    <textarea name="message2" cols="30" rows="3" required>Message Sent to Oxnard Rehab!</textarea>
-              </div>
-
-
-            </form>
-    </div>
-</div>
-</div>
+        </div>
 </section>
-
-
-<div className="contact-cards-container">
-    
-    <div className="get_form_inner2 card1 gradient-border">
-            <h2>CALL US</h2>
-            <p><AiOutlinePhone /><a href="tel:3237920535"> +1 (323) 792-0535</a></p>
-    </div>
-
-    <div className="get_form_inner2 card2 gradient-border">
-            <h2>EMAIL</h2>
-            <p><AiOutlineMail /> Info@OxnardRehab.biz  </p><br />
-    </div>
-
-    <div className="get_form_inner2 card3 gradient-border">
-            <h2>LOCATION</h2>
-            <p><BsFillPinMapFill /> 721 S. A Street, 1st Floor, Oxnard CA 93030 </p>
-    </div>
-
-</div>
-    
 
 
 </div>

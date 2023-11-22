@@ -19,14 +19,28 @@
 
 
 
+  .contact-form-flex {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .contact-form-left {
+    width: 100%;
+    margin: auto;
+  }
+
+  .contact-form-right {
+    width: 100%;
+    margin: auto;
+  }
+
 
 
   .get_form_inner {
-    display: block;
-    padding: 3rem 3rem ;
+    padding: 2rem;
     background: #ffffff;
     box-shadow: -4px -2px 20px -7px #cfd5df;
-    margin: 2rem 5rem 2rem 5rem;
     border-radius: 1rem;
   }
 
@@ -111,7 +125,7 @@ input {
     margin: 1rem 1rem 3rem 1rem;
   }
 
-  .card1 {
+  .contact-form-left .card1 {
     background-repeat: no-repeat;
     background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
     background-position: left bottom, left bottom, right top, right top, 4px 4px;
@@ -167,6 +181,15 @@ input {
   @media screen and (max-width: 940px) {
     .get_form_inner {
         margin: 2rem 1rem 2rem 1rem;
+      }
+
+      .contact-form-flex {
+        flex-wrap: wrap-reverse;
+      }
+
+      .contact-form-left {
+        width: 100%;
+        margin: auto;
       }
 
     }
