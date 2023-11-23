@@ -34,9 +34,7 @@ const TherapySA = () => {
                 <h1>SUBSTANCE ABUSE</h1>
               </div>
             </div>
-          </Zoom>
 
-          <Zoom duration={2000}>
             <div className="sa-card gradient-border">
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/detox-programs">
@@ -49,9 +47,7 @@ const TherapySA = () => {
                 <h1>DETOX</h1>
               </div>
             </div>
-          </Zoom>
 
-          <Zoom duration={2000}>
             <div className="sa-card gradient-border">
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/sober-living">
@@ -64,9 +60,7 @@ const TherapySA = () => {
                 <h1>SOBER LIVINGS</h1>
               </div>
             </div>
-          </Zoom>
 
-          <Zoom duration={2000}>
             <div className="sa-card gradient-border">
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                 <Link to="/jobs">
@@ -79,6 +73,7 @@ const TherapySA = () => {
                 <h1>JOBS PROGRAMS</h1>
               </div>
             </div>
+            
           </Zoom>
 
             </div>
