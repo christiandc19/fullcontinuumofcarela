@@ -1,9 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 import Zoom from 'react-reveal/Zoom';
 
 import "./TherapySA.css";
-import { Link } from "react-router-dom";
 
 import Alcoholism from '../../assets/alcoholism.webp'
 import Detox from '../../assets/program-detox.webp'

@@ -1,29 +1,85 @@
 import React from 'react'
 
+import { Link } from "react-router-dom";
+import { Link as LinkRoll } from "react-scroll";
+import Zoom from 'react-reveal/Zoom';
+
+
 import './HomeGallery.css'
 
-const HomeGallery = () => {
+import Citrus from '../../assets/north-citrus-bg.webp'
+import Detroit from '../../assets/north-detroit-bg.webp'
+import Huntington from '../../assets/huntington-bg.webp'
+import Hollywood from '../../assets/hollywood-bg.webp'
+import Venice from '../../assets/venice-bg.webp'
+
+
+const Location = () => {
   return (
     <>
-      <div className="gallery">
-  <h1 className="title">Gallery</h1>
-  <div className="image-wrap">
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/citrus-clean1-min.png"  alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/hollywood-clean1-min.png"  alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/huntington-rest3-min.png"  alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/citrus-rest3-min.png"  alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat6.png"  alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/hollywood-clean4-min.png"  alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-retreat5.png"  alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-gather1.png"  alt='sober living home'  className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/hollywood-rest3-min.png"  alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/detroit1-min.jpg" alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/home1.png" alt='sober living home' className="pic" />
-    <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/home4.png" alt='sober living home' className="pic" />
-  </div>
-</div>
+      <div className="location container">
+        <div className='location-content'>
+          <div className='location-header'>
+              <h1>Our Los Angeles Sober Living Homes</h1>
+          </div>
+          <div className='location-flex'>
+
+          <Zoom duration={2000}>
+
+
+              <div className='location-flexItem'>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/north-citrus-los-angeles">
+                  <img src={Citrus} alt='sober living home' className="pic" />
+                  <h1>North Citrus Avenue</h1>
+                  </Link>
+                </LinkRoll>
+              </div>
+
+              <div className='location-flexItem'>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/north-detroit-los-angeles">
+                    <img src={Detroit}  alt='sober living home' className="pic" />
+                    <h1>North Detroit Street</h1>
+                </Link>
+                </LinkRoll>
+              </div>
+
+              <div className='location-flexItem'>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/huntington-beach">
+                    <img src={Huntington}  alt='sober living home' className="pic" />
+                    <h1>Huntington Beach</h1>
+                </Link>
+                </LinkRoll>
+              </div>
+
+              <div className='location-flexItem'>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/west-hollywood">
+                    <img src={Hollywood}  alt='sober living home' className="pic" />
+                    <h1>West Hollywood</h1>
+                </Link>
+                </LinkRoll>
+              </div>
+
+              <div className='location-flexItem'>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/venice-california">
+                    <img src={Venice}  alt='sober living home' className="pic" />
+                    <h1>Venice</h1>
+                </Link>
+                </LinkRoll>
+              </div>
+
+        </Zoom>
+        
+            </div>
+
+          </div>
+        </div>
     </>
   )
 }
 
-export default HomeGallery
+export default Location

@@ -38,6 +38,11 @@ import Op from './routes/Programs-OP';
 import DetoxProgramPage from './routes/DetoxProgramPage';
 
 import SoberLivingPage from './routes/SoberLivingPage';
+import CitrusPage from './routes/CitrusPage';
+import DetroitPage from './routes/DetroitPage';
+import HuntingtonPage from './routes/HuntingtonPage';
+import HollywoodPage from './routes/HollywoodPage';
+import VenicePage from './routes/VenicePage';
 
 
 
@@ -74,7 +79,14 @@ root.render(
       <Route exact path='/xanax' element={<XANAX />} />
 
       <Route exact path='/jobs' element={<Jobs />} />=
+
       <Route exact path='/sober-living' element={<SoberLivingPage />} />
+      <Route exact path='/north-citrus-los-angeles' element={<CitrusPage />} />
+      <Route exact path='/north-detroit-los-angeles' element={<DetroitPage />} />
+      <Route exact path='/huntington-beach' element={<HuntingtonPage />} />
+      <Route exact path='/west-hollywood' element={<HollywoodPage />} />
+      <Route exact path='/venice-california' element={<VenicePage />} />
+
       <Route exact path='/contact' element={<ContactPage />} />
 
       <Route exact path='/substance-abuse-treatment' element={<MenuAddiction />} />

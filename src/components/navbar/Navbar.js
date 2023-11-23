@@ -75,8 +75,17 @@ const Navbar = () => {
                             </ul>
                         </li>
 
+                        <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to='/sober-living'>Sober Living <BsFillCaretDownFill /></Link>
+                            <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
+                                <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/north-citrus-los-angeles`}> Los Angeles - North Citrus</NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeclassname='is-active' to={`/north-detroit-los-angeles`}> Los Angeles - North Detroit</NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeclassname='is-active' to={`/huntington-beach`}> Huntington Beach</NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeclassname='is-active' to={`/west-hollywood`}> West Hollywood</NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeclassname='is-active' to={`/venice-california`}> Venice</NavLink> </li>
+                            </ul>
+                        </li>
 
-                        <li><Link to='/sober-living'>Sober Living</Link> </li>
+
                         <li><Link to='/jobs'>Jobs Program</Link></li>
                         {/* <li><Link to='/about-us'>About Us</Link> </li> */}
                         {/* <li><Link to='/insurance'>Insurance</Link></li> */}
