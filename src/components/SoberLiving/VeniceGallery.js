@@ -5,6 +5,8 @@ import './HomeGallery.css'
 const VeniceGallery = () => {
   return (
     <>
+        <div className='gallery-bg'>
+
       <div className="gallery">
   <h1 className="title">Gallery</h1>
   <div className="image-wrap">
@@ -27,7 +29,7 @@ const VeniceGallery = () => {
     <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-clean2.png"  alt='sober living home' className="pic" />
     <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/venice-clean3.png"  alt='sober living home' className="pic" />
   </div>
-
+</div>
 </div>
     </>
   )

@@ -62,7 +62,7 @@ const Navbar = () => {
                         <li onClick={toggleSubmenu} className="menu-item sub__menus__arrows" > <Link to={`#`}> Detox <BsFillCaretDownFill /> </Link>
                             <ul className={boxClassSubMenu.join(' ')} id='submenu-item'> 
                                 <li> <NavLink onClick={toggleClass} activeclassname='is-active'  to={`/detox-programs`}> Detox Program </NavLink> </li>
-                                <li><NavLink onClick={toggleClass} activeclassname='is-active' to={`/residential-programs`}> Residential Program </NavLink> </li>
+                                <li><NavLink onClick={toggleClass} activeclassname='is-active' to={`/residential-programs`}> Residential Drug Detox </NavLink> </li>
                                 <li><NavLink onClick={toggleClass} activeclassname='is-active' to={`/detox-partial-hospitalization-program`}> Partial Hospitalization Program </NavLink> </li>
                             </ul>
                         </li>

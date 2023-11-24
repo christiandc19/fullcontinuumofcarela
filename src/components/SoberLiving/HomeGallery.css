@@ -2,6 +2,23 @@
 
 /* LOCATION */
 
+.location {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0 0 5rem 0;
+  }
+  
+  .location:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: .03;
+  }
+
+
 .location-content {
     padding: 1rem;
 }
@@ -41,11 +58,24 @@
 
 
 
-
-
-
-
 /* GALLERIES */
+
+
+.gallery-bg {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0 0 5rem 0;
+  }
+  
+  .gallery-bg:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: .03;
+  }
 
 
 .gallery {

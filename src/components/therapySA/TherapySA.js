@@ -13,6 +13,7 @@ import Jobs from '../../assets/program-jobs.webp'
 const TherapySA = () => {
   return (
     <>
+    <div className="therapy-bg">
       <div className="therapy-sa">
         <div className="therapy-sa-content container">
 
@@ -77,7 +78,7 @@ const TherapySA = () => {
           </Zoom>
 
             </div>
-
+            </div>
           </div>
         </div>
     </>

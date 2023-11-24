@@ -5,6 +5,8 @@ import './HomeGallery.css'
 const HollywoodGallery = () => {
   return (
     <>
+        <div className='gallery-bg'>
+
       <div className="gallery">
   <h1 className="title">Gallery</h1>
   <div className="image-wrap">
@@ -31,6 +33,7 @@ const HollywoodGallery = () => {
     <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/hollywood-clean3-min.png"  alt='sober living home' className="pic" />
     <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/hollywood-clean4-min.png"  alt='sober living home' className="pic" />
   </div>
+</div>
 </div>
     </>
   )

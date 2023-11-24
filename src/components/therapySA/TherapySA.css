@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@300&display=swap');
 
-.therapy-sa {
+
+.therapy-bg {
     width: 100%;
     height: auto;
-    background-color: rgb(255, 255, 255);
-}
+    position: relative;
+    padding: 0 0 5rem 0;
+  }
   
+  .therapy-bg:before {
+    content: '';
+    position: absolute;
+    background: url('../../assets/section-bg.webp') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    opacity: .03;
+  }
+
+
+
 .therapy-sa-content {
     height: auto;
     padding: 5rem 0;

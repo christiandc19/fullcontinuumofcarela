@@ -68,6 +68,9 @@
     height: 100%;
     display: flex;
     padding: 1rem;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 124, 1, 0.055) 35%, rgba(0, 0, 0, 0) 100%);    
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
 }
 
 .navbar li {

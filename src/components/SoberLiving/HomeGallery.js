@@ -17,8 +17,8 @@ import Venice from '../../assets/venice-bg.webp'
 const Location = () => {
   return (
     <>
-      <div className="location container">
-        <div className='location-content'>
+      <div className="location">
+        <div className='location-content container'>
           <div className='location-header'>
               <h1>Our Los Angeles Sober Living Homes</h1>
           </div>

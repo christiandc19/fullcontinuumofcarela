@@ -5,6 +5,9 @@ import './HomeGallery.css'
 const CitrusGallery = () => {
   return (
     <>
+
+    <div className='gallery-bg'>
+
       <div className="gallery">
   <h1 className="title">Gallery</h1>
   <div className="image-wrap">
@@ -23,6 +26,9 @@ const CitrusGallery = () => {
     <img src="https://55silver.s3.us-west-1.amazonaws.com/55silver_medias/citrus-rest6-min.png" alt='sober living home' className="pic" />
   </div>
 </div>
+
+</div>
+
     </>
   )
 }
