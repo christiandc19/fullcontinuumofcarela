@@ -17,7 +17,7 @@ const Section2 = () => {
 
       
 
-        <div className="section2 container">
+        <div className="section2">
         <div className="section2-content container">
 
         <Zoom duration={1500}>
