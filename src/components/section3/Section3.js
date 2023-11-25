@@ -5,11 +5,12 @@ import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
 import { FaArrowRight } from "react-icons/fa";
 
-import Card1 from "../../assets/program_php.webp";
-import Card2 from "../../assets/program_iop.webp";
-import Card3 from "../../assets/program_op.webp";
-import Card4 from "../../assets/program_case_management.webp";
-import Card5 from "../../assets/program_crisis_intervention.webp";
+
+import AlcoholAddiction from "../../assets/alcohol_addiction.webp";
+import CocaineAddiction from "../../assets/cocaine_addiction.webp";
+import HeroinAddiction from "../../assets/heroin_addiction.webp";
+import FentanylAddiction from "../../assets/fentanyl_addiction.webp";
+
 
 
 
@@ -34,88 +35,77 @@ const Section3 = () => {
 
 
           <div className="section3-flex">
+
 {/* Alcohol */}
-              <div class="section3-flexItem">
-                  <img src={Card1} alt="Mental Health" loading="lazy" />
-                <div>
-                  <h1>ALCOHOL ADDICTION</h1>
-                  <div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                      <Link to="/alcohol">
-                        <button>Learn More</button>
-                      </Link>
-                    </LinkRoll>
-                  </div>
-                </div>
+            <div class="section3-flexItem">
+                    <div className="section3-flexItem-img">
+                      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                        <Link to="/alcohol">
+                          <img src={AlcoholAddiction} alt="Mental Health" loading="lazy" />
+                        </Link>
+                      </LinkRoll>
+                    <div>
+                    <div className="section3-flexItem-caption">
+                      <h1>ALCOHOL ADDICTION</h1>
+                    </div>
               </div>
+            </div>
+          </div>
+
+
 
 {/* Cocaine */}
-
-              <div class="section3-flexItem">
-                  <img src={Card2} alt="Mental Health" loading="lazy" />
-                <div>
-                  <h1>COCAINE ADDICTION</h1>
-                  <div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                      <Link to="/cocaine">
-                        <button>Learn More</button>
-                      </Link>
-                    </LinkRoll>
-                  </div>
-                </div>
-              </div>
-
-
-{/* Fentanyl */}
-
 <div class="section3-flexItem">
-                  <img src={Card3} alt="Mental Health" loading="lazy" />
-                <div>
-                  <h1>FENTANYL ADDICTION</h1>
-                  <div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                      <Link to="/fentanyl">
-                        <button>Learn More</button>
-                      </Link>
-                    </LinkRoll>
-                  </div>
-                </div>
+                    <div className="section3-flexItem-img">
+                      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                        <Link to="/cocaine">
+                          <img src={CocaineAddiction} alt="Mental Health" loading="lazy" />
+                        </Link>
+                      </LinkRoll>
+                    <div>
+                    <div className="section3-flexItem-caption">
+                      <h1>COCAINE ADDICTION</h1>
+                    </div>
               </div>
+            </div>
+          </div>
 
 
 {/* Heroin */}
-
 <div class="section3-flexItem">
-                  <img src={Card4} alt="Mental Health" loading="lazy" />
-                <div>
-                  <h1>HEROIN ADDICTION</h1>
-                  <div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                      <Link to="/heroin">
-                        <button>Learn More</button>
-                      </Link>
-                    </LinkRoll>
-                  </div>
-                </div>
+                    <div className="section3-flexItem-img">
+                      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                        <Link to="/heroin">
+                          <img src={HeroinAddiction} alt="Mental Health" loading="lazy" />
+                        </Link>
+                      </LinkRoll>
+                    <div>
+                    <div className="section3-flexItem-caption">
+                      <h1>HEROIN ADDICTION</h1>
+                    </div>
               </div>
+            </div>
+          </div>
 
 
 
-{/* Kratom */}
 
+{/* Fentanyl */}
 <div class="section3-flexItem">
-                  <img src={Card5} alt="Mental Health" loading="lazy" />
-                <div>
-                  <h1>KRATOM ADDICTION</h1>
-                  <div>
-                    <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                      <Link to="/kratom">
-                        <button>Learn More</button>
-                      </Link>
-                    </LinkRoll>
-                  </div>
-                </div>
+                    <div className="section3-flexItem-img">
+                      <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                        <Link to="/fentanyl">
+                          <img src={FentanylAddiction} alt="Mental Health" loading="lazy" />
+                        </Link>
+                      </LinkRoll>
+                    <div>
+                    <div className="section3-flexItem-caption">
+                      <h1>FENTANYL ADDICTION</h1>
+                    </div>
               </div>
+            </div>
+          </div>
+
 
 
 

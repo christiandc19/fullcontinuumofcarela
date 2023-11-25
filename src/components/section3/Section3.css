@@ -40,20 +40,30 @@
 }
 
 .section3-flexItem {
-    width: 150px;
+    width: 250px;
     height: auto;
+}
+
+.section3-flexItem-img {
+    position: relative;
+}
+
+.section3-flexItem-caption h1 {
+    position: absolute;
+    color: white;
+    bottom: 5%;
 }
 
 .section3-flexItem img {
     width: 100%;
-    border-radius: .2rem;
+    border-radius: .5rem;
 }
 
 .section3-flexItem h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 300;
-    padding: .5rem 0;
+    padding: 0 1rem;
 }
 
 .section3-flexItem {
@@ -75,11 +85,11 @@
 }
 
 .view-all {
-    margin: auto;
+    margin: 2rem auto;
 }
 
 .view-all h1 {
-    font-size: .8rem;
+    font-size: 1rem;
     letter-spacing: 2px;
     color: #5b8fb6;
 }
