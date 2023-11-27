@@ -7,7 +7,6 @@
   }
   
 
-
   .section3-content {
     padding: 1rem;
   }
@@ -19,16 +18,6 @@
     text-transform: uppercase;
     font-family: 'Bacasime Antique', serif;
   }
-
-  .section3-header h2 {
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    letter-spacing: 3px;
-    font-weight: 600;
-    font-family: 'Bacasime Antique', serif;
-  }
-
 
 
 .section3-flex {
@@ -52,6 +41,7 @@
     position: absolute;
     color: white;
     bottom: 5%;
+    background-color: rgba(0, 0, 0, 0.404);
 }
 
 .section3-flexItem img {
@@ -63,20 +53,24 @@
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 300;
-    padding: 0 1rem;
+    padding: .5rem;
 }
 
 .section3-flexItem {
     text-align: center;
 }
 
-.section3-flexItem button {
+.section3-btn {
+    text-align: center;
+}
+.section3-btn button {
     background-color: #7CB9E8;
     color: white;
     border: none;
     font-weight: 500;
     width:max-content;
     padding: .5rem 1.5rem;
+
 }
 
 .section3-flexItem button:hover {
@@ -84,19 +78,6 @@
     border: none;
 }
 
-.view-all {
-    margin: 2rem auto;
-}
-
-.view-all h1 {
-    font-size: 1rem;
-    letter-spacing: 2px;
-    color: #5b8fb6;
-}
-
-.view-all span {
-    color: #7CB9E8;
-}
 
 
 @media  screen and (max-width: 700px) {

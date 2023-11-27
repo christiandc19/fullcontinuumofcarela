@@ -3,7 +3,6 @@ import "./Section3.css";
 
 import { Link } from "react-router-dom";
 import { Link as LinkRoll } from "react-scroll";
-import { FaArrowRight } from "react-icons/fa";
 
 
 import AlcoholAddiction from "../../assets/alcohol_addiction.webp";
@@ -115,10 +114,10 @@ const Section3 = () => {
           </div>
 
 
-          <div class="section3-flexItem view-all">
+          <div class="section3-btn">
                 <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
                       <Link to="/substance-abuse-treatment">
-                          <h1>VIEW ALL <span><FaArrowRight /></span></h1>
+                        <button>View All</button>
                       </Link>
                   </LinkRoll>
           </div>    

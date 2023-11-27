@@ -5,13 +5,13 @@
     width: 100%;
     height: auto;
     position: relative;
-    background: rgba(0, 0, 0, 0.568);
+    background: rgba(0, 0, 0, 0.295);
   }
   
   .mission-home:before {
     content: '';
     position: absolute;
-    background: url('../../assets/mission-home-min.webp') no-repeat center top/cover;
+    background: url('../../assets/mission-home-min.webp') no-repeat center center/cover;
     height: 100%;
     width: 100%;
     z-index: -1;
@@ -20,7 +20,7 @@
 
   .mission-home .mission-home-content  {
     top: 25%;
-    padding: 5rem 0;
+    padding: 15rem 0;
   }
 
 .mission-home .mission-home-content h1 {
