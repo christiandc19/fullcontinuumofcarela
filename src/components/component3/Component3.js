@@ -29,14 +29,24 @@ const Component3 = () => {
           </div>
 
 
-          <div className="c3-right">
+          <div className="c3-center">
 
             <div className='c3-right-img gradient-border'>
               <img src={Man} alt="Depressed Man" loading="lazy" />
             </div>
 
           </div>
+
+
+          <div className="c3-right">      
+            <h1>TREATMENT</h1>        
+            <p>
+            We offer different levels of care based on each individual’s needs. Our programs consist of an intensive outpatient program (IOP) and a more demanding and structured partial hospitalization program (PHP).</p>
+            <p>You can be confident that our caring and professional staff will recommend the right level of care for you or your loved one.</p>
+
+            </div>
           </div>
+
         </div>
 
 

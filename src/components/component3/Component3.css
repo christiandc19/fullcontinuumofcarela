@@ -27,7 +27,7 @@
 }
 
 .c3-left {
-    width: 50%;
+    width: 30%;
     margin: auto;
 }
 
@@ -37,9 +37,8 @@
 }
 
 .c3-left h1 {
-    font-size: 3.5rem;
+    font-size: 2rem;
     color: #92b1d3;
-    text-align: left;
     font-family: 'Cookie', cursive;
     font-weight: 300;
 }
@@ -55,10 +54,21 @@
     text-align: left;
 }
 
+
 .c3-right {
-    width: 500px;
+    width: 30%;
     margin: auto;
 }
+
+.c3-right h1 {
+    font-size: 1.2rem;
+    padding: .5rem 0;
+}
+
+.c3-center {
+    width: 30%;
+}
+
 
 .c3-right-img {
     margin: auto;
@@ -101,6 +111,10 @@
         width: 100%;
     }
 
+    .c3-center {
+        width: 50%;
+    }
+
     .c3-left h1 {
         text-align: center;
         font-size: 2rem;
@@ -118,4 +132,11 @@
 
 }
 
+
+@media  screen and (max-width:600px) {
+    .c3-center {
+        width: 100%;
+    }
+
+}
 
