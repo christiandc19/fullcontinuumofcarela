@@ -63,11 +63,16 @@ const ImageSlider = ({ images }) => {
 
         </div>
 
+    </div>
+
+<div className='slider-footer'>
+  <h1>A safe therapeutic environment is important</h1>
+</div>
 
 
     </div>
 
-    </div>
+
 
 
 
