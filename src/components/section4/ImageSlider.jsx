@@ -35,11 +35,12 @@ const ImageSlider = ({ images }) => {
     <div className='image-slider-flex container'>
         
         <div className="image-slider">
+
+            <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
+            <FaChevronLeft onClick={prevSlide} />
+
             <div className='arrow'>
                 <FaChevronLeft onClick={prevSlide} />
-            </div>
-            <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} />
-            <div className='arrow'>
                 <FaChevronRight onClick={nextSlide}/>
             </div>
         </div>
@@ -66,7 +67,7 @@ const ImageSlider = ({ images }) => {
     </div>
 
 <div className='slider-footer'>
-  <h1>A safe therapeutic environment is important</h1>
+  <h1>A safe therapeutic environment is important.</h1>
 </div>
 
 

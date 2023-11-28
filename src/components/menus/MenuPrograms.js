@@ -40,16 +40,8 @@ const MenusPrograms = () => {
             <img src={Card1} alt="Mental Health" loading="lazy" />
           <div>
             <h1>PARTIAL HOSPITALIZATION</h1>
-            <div className="hide">
+            <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/partial-hospitalization-program">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/partial-hospitalization-program">
                   <button>Learn More</button>
                 </Link>
@@ -65,16 +57,8 @@ const MenusPrograms = () => {
             <img src={Card2} alt="Mental Health" loading="lazy" />
           <div>
             <h1>INTENSIVE OUTPATIENT</h1>
-            <div className="hide">
+            <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/intensive-outpatient-program">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/intensive-outpatient-program">
                   <button>Learn More</button>
                 </Link>
@@ -90,16 +74,8 @@ const MenusPrograms = () => {
             <img src={Card3} alt="Mental Health" loading="lazy" />
           <div>
             <h1>OUTPATIENT </h1>
-            <div className="hide">
+            <div>
               <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                <Link to="/outpatient-program">
-                  <button>Learn More</button>
-                </Link>
-              </LinkRoll>
-            </div>
-
-            <div className="show">
-              <LinkRoll activeClass="active" to="scroll" spy={true} smooth={true} duration={500}>
                 <Link to="/outpatient-program">
                   <button>Learn More</button>
                 </Link>
