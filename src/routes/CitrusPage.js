@@ -6,6 +6,7 @@ import Citrus from '../components/SoberLiving/Citrus'
 import CitrusSection from '../components/SoberLiving/CitrusSection'
 import Contact2 from "../components/contact/Contact2";
 import CitrusGallery from '../components/SoberLiving/CitrusGallery'
+import HomeGallery from '../components/SoberLiving/HomeGallery'
 
 
 
@@ -16,6 +17,7 @@ const CitrusPage = () => {
     <Citrus />
     <CitrusSection />
     <CitrusGallery />
+    <HomeGallery />
     <Contact2 />
     <Footer />
      </>

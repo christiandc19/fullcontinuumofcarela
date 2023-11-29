@@ -6,6 +6,7 @@ import Detroit from '../components/SoberLiving/Detroit'
 import DetroitSection from '../components/SoberLiving/DetroitSection'
 import Contact2 from "../components/contact/Contact2";
 import DetroitGallery from '../components/SoberLiving/DetroitGallery'
+import HomeGallery from '../components/SoberLiving/HomeGallery'
 
 
 
@@ -16,6 +17,7 @@ const DetroitPage = () => {
     <Detroit />
     <DetroitSection />
     <DetroitGallery />
+    <HomeGallery />
     <Contact2 />
     <Footer />
      </>
