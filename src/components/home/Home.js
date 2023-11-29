@@ -7,6 +7,7 @@ import TherapySA from '../therapySA/TherapySA';
 import Section3 from '../section3/Section3';
 import Section4 from '../section4/Section4';
 import Component3 from '../component3/Component3';
+// import ReviewSection from '../reviews/ReviewSection';
 
 
 
@@ -19,6 +20,7 @@ const home = () => {
     <Component3 />
     <Section3 />
     <InsuranceSection />
+    {/* <ReviewSection /> */}
     <MissionHome />
     <ContactForm />
     </>

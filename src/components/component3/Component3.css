@@ -21,9 +21,9 @@
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 1rem;
-    padding: 5rem 1rem;
+    padding: 5rem 3rem;
 }
 
 .c3-left {
@@ -106,7 +106,7 @@
     background-color: var(--primary-color);
 }
 
-@media  screen and (max-width:940px) {
+@media  screen and (max-width:1200px) {
 
     .component3-content {
         flex-wrap: wrap-reverse;

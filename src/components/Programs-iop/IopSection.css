@@ -55,6 +55,10 @@
     width: 700px;
     height: auto;
     margin: auto;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-size: 4px 50%, 50% 4px, 4px 50%, 50% 4px, calc(100% - 8px) calc(100% - 8px);
+    background-position: left bottom, left bottom, right top, right top, 4px 4px;
 }
 
 .iop-section-flex-right img {

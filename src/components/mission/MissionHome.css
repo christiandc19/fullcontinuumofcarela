@@ -5,7 +5,7 @@
     width: 100%;
     height: auto;
     position: relative;
-    background: rgba(0, 0, 0, 0.295);
+    background: rgba(0, 0, 0, 0.432);
   }
   
   .mission-home:before {
@@ -26,25 +26,19 @@
 .mission-home .mission-home-content h1 {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    color: white;
-    padding: 2rem;
-    font-size: 3rem;
+    color: rgb(236, 233, 233);
+    font-size: 1.5rem;
+    padding: .5rem 0;
 }
 
 .mission-home .mission-home-content p {
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: rgb(255, 255, 255);
-    padding: 1rem;
+    text-align: justify;
+    color: rgb(236, 233, 233);
+    padding: 0;
 }
 
-.mission-home h2 {
-    font-size: 2.5rem;
-    text-align: center;
-    padding: 2rem;
-    font-family: 'Kaushan Script', cursive;
-    color: rgb(255, 255, 255);
-}
+
 
 
 @media screen and (max-width:940px) {

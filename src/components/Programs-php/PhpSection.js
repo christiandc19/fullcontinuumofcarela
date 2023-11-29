@@ -28,7 +28,7 @@ const PhpSection = () => {
             <p>One of the distinguishing features of a PHP is its emphasis on group therapy. Daily group sessions create a supportive and empathetic space for participants to share experiences, exchange insights, and develop crucial coping mechanisms. This collaborative environment fosters a sense of community, breaking down the isolation that often accompanies addiction. Additionally, family involvement is recognized as a vital component of the recovery process. Family education sessions and, when suitable, family therapy are offered to promote understanding, communication, and the establishment of a robust support system. As participants near the end of the program, a personalized aftercare plan is developed in close collaboration with the individual, ensuring a smooth transition towards sustained recovery.</p>
           </div>
 
-          <div className="php-section-flex-right">
+          <div className="php-section-flex-right gradient-border">
             <img src={PHPSection1} alt="Man thinking in from of the ocean" loading="lazy" />
           </div>
 

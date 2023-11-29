@@ -31,7 +31,7 @@ const IopSection = () => {
             <p>We recognize that life doesn't pause during the recovery process. That's why our IOP offers flexible scheduling options, allowing individuals to attend therapy sessions at times that best fit their commitments. This flexibility empowers individuals to actively engage in their treatment while continuing to fulfill their responsibilities at work, school, and home. At Oxnard Rehab, we believe that by integrating recovery seamlessly into daily life, individuals can build a foundation for lasting sobriety and a brighter future.</p>
           </div>
 
-          <div className="iop-section-flex-right">
+          <div className="iop-section-flex-right gradient-border">
             <img src={IOPSection1} alt="Man thinking in from of the ocean" loading="lazy" />
           </div>
 

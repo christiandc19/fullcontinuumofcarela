@@ -13,7 +13,7 @@ const OpSection = () => {
 
             <div className="op-section-header">
               <h1>Oxnard Rehab: Outpatient Treatment</h1>
-              <p>Welcome to [Clinic Name] Outpatient Treatment Program! We are dedicated to providing high-quality, personalized care to support individuals on their journey to recovery. Our outpatient program offers flexible scheduling and a range of evidence-based therapies tailored to meet your unique needs.</p><br/>
+              <p>Welcome to [Clinic Name] Outpatient Treatment Program! We are dedicated to providing high-quality, personalized care to support individuals on their journey to recovery. Our outpatient program offers flexible scheduling and a range of evidence-based therapies tailored to meet your unique needs.</p>
               <p>Oxnard Rehab is dedicated to your well-being and committed to walking alongside you on this path to healing. We believe in your strength and resilience, and together, we will work towards a brighter, addiction-free future.</p>
               <h1>About Us</h1>
               <p>At [Clinic Name], we believe in a holistic approach to recovery, addressing not only the physical aspects of addiction but also the emotional, mental, and social factors that contribute to it. Our team of experienced professionals is committed to creating a safe and supportive environment for individuals seeking outpatient treatment.</p>
@@ -23,19 +23,19 @@ const OpSection = () => {
 
           <div className="op-section-flex-left">
             <h1>What Sets Us Apart</h1>
-            <p><span><BsCheckLg /></span><b> Personalized Care</b>: We recognize that every individual's journey is unique. Our treatment plans are tailored to address your specific needs and goals.</p><br/>
+            <p><span><BsCheckLg /></span><b> Personalized Care</b>: We recognize that every individual's journey is unique. Our treatment plans are tailored to address your specific needs and goals.</p>
 
-            <p><span><BsCheckLg /></span><b> Experienced Team</b>: Our team of licensed professionals brings a wealth of experience and expertise in addiction recovery.</p><br/>
+            <p><span><BsCheckLg /></span><b> Experienced Team</b>: Our team of licensed professionals brings a wealth of experience and expertise in addiction recovery.</p>
 
-            <p><span><BsCheckLg /></span><b> Flexible Scheduling</b>: We understand the demands of daily life. Our flexible scheduling options make it easier for you to prioritize your recovery.</p><br/>
+            <p><span><BsCheckLg /></span><b> Flexible Scheduling</b>: We understand the demands of daily life. Our flexible scheduling options make it easier for you to prioritize your recovery.</p>
             <p><span><BsCheckLg /></span><b> Evidence-Based Approaches</b>: We employ scientifically-proven therapies and techniques to ensure the best possible outcomes.</p>
             <h1>Getting Started</h1>
-            <p>Taking the first step towards recovery is a courageous decision. To get started with our Outpatient Treatment Program, please contact us at <a href='tel:3239025644'>+1 (323) 452-1224</a> to schedule an initial assessment. Our team will work with you to create a personalized treatment plan that aligns with your goals.</p><br/>
+            <p>Taking the first step towards recovery is a courageous decision. To get started with our Outpatient Treatment Program, please contact us at <a href='tel:3239025644'>+1 (323) 452-1224</a> to schedule an initial assessment. Our team will work with you to create a personalized treatment plan that aligns with your goals.</p>
             <p>At [Clinic Name], we are here to support you every step of the way. Regain control of your life and start your journey to lasting recovery with us.</p>
 
           </div>
 
-          <div className="op-section-flex-right">
+          <div className="op-section-flex-right gradient-border">
             <img src={PHPSection1} alt="Man thinking in from of the ocean" loading="lazy" />
           </div>
 
@@ -44,7 +44,7 @@ const OpSection = () => {
 
         <div className="op-section-header">
               <h1>What is Outpatient Rehab?</h1>
-              <p>Outpatient rehab is a structured treatment program that allows individuals to receive care for their addiction while continuing to live at home and attend to their work, family, and social obligations. This program offers a flexible alternative to inpatient treatment, providing essential support without the need for residential stays.</p><br/>
+              <p>Outpatient rehab is a structured treatment program that allows individuals to receive care for their addiction while continuing to live at home and attend to their work, family, and social obligations. This program offers a flexible alternative to inpatient treatment, providing essential support without the need for residential stays.</p>
 
               <h1>Who is Outpatient Rehab For?</h1>
               <h2>Outpatient rehab is an excellent option for individuals who:</h2>
