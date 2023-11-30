@@ -83,7 +83,9 @@
 }
 
 .section2-content-right button:hover  {
-    background-color: #565e06;
+    background-color: #ffffff;
+    color: rgb(198, 134, 24);
+    border: 1px solid rgba(198, 134, 24, 0.281);
 }
 
 @media screen and (max-width:940px)  {
