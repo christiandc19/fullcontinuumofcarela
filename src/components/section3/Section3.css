@@ -64,18 +64,18 @@
     text-align: center;
 }
 .section3-btn button {
-    background-color: #7CB9E8;
+    background-color: rgb(198, 134, 24);
     color: white;
     border: none;
     font-weight: 500;
-    width:max-content;
-    padding: .5rem 1.5rem;
+    padding: .5rem 2rem;
 
 }
 
-.section3-flexItem button:hover {
-    background-color: #5b8fb6;
-    border: none;
+.section3-btn button:hover {
+    background-color: #ffffff;
+    color: rgb(198, 134, 24);
+    border: 1px solid rgba(198, 134, 24, 0.219);
 }
 
 
