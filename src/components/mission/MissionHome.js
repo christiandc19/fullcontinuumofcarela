@@ -1,5 +1,6 @@
 import React from "react";
 import "./MissionHome.css";
+import Fade from "react-reveal/Fade";
 
 const MissionHome = () => {
   return (
@@ -8,6 +9,7 @@ const MissionHome = () => {
         <div className="mission-home-content">
           <div className="mission-flex container">
 
+              <Fade bottom duration={2000}>
                 <h1>OUR MISSION</h1>
                 <p>
                   Provide every individual a quiet, calm, and safe place to begin the
@@ -23,7 +25,7 @@ const MissionHome = () => {
                   <p>
                   Our vision is to be a beacon of hope and healing in the journey towards recovery from addiction. We imagine a world where individuals struggling with substance abuse find solace, support, and a path to lasting transformation through our comprehensive detox resources. We aspire to break the chains of addiction by fostering a compassionate and understanding community. Our vision is to provide a safe and informative online space that empowers individuals to confront and overcome the challenges of detoxification with resilience and determination.
                   </p>
-
+              </Fade>
           </div>
 
 

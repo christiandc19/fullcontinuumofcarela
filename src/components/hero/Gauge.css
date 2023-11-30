@@ -58,8 +58,8 @@
 }
 
 .homeless {
-    -webkit-animation: progress-homeless 3s forwards;
-            animation: progress-homeless 3s forwards;
+    -webkit-animation: progress-homeless 7s forwards;
+            animation: progress-homeless 7s forwards;
 }
 
 @keyframes progress-homeless {
@@ -68,8 +68,8 @@
 }
 
 .sober {
-    -webkit-animation: progress-sober 3s forwards;
-            animation: progress-sober 3s forwards;
+    -webkit-animation: progress-sober 7s forwards;
+            animation: progress-sober 7s forwards;
 }
 
 @keyframes progress-sober {

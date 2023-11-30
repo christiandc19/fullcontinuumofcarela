@@ -5,7 +5,6 @@ import './Jobs.css'
 
 import JobSection from '../../components/jobs/JobSection'
 
-import Contact2 from '../contact/Contact2'
 
 const Jobs = () => {
     return (
@@ -20,7 +19,6 @@ const Jobs = () => {
                 </div>
             </div>
         <JobSection />
-        <Contact2 />
         </>
     )
 }

@@ -1,7 +1,5 @@
 import React, { useRef } from "react";
 
-
-
 import './Contact2.css';
 import emailjs from 'emailjs-com'
 
@@ -39,7 +37,7 @@ const ContactForm = () => {
 
 
     <div className="contact2-header contact2-container">
-        <h1>DO YOU NEED URGENT HELP?</h1>
+        <h1>SCHEDULE A TOUR</h1>
         <p>Our Addiction and Recovery Support team is available to assist you.</p>
     </div>
 
@@ -70,7 +68,7 @@ const ContactForm = () => {
 
       <div className="right-side">
         <div className="topic-text">Send us a message</div> <br/>
-        <p className="topic-text-p">Please call our admission department if you have any questions.</p>
+        <p className="topic-text-p">Fill out the form below and a team member will get back to you.</p>
       <form ref={form} onSubmit={sendEmail}>
         <div className="input-box">
         <input type="text" name='name' placeholder='Your Name' required />
@@ -93,8 +91,6 @@ const ContactForm = () => {
         <div className="textarea2 feedback hidden">
             <textarea name="message2" cols="30" rows="3" required>Message Sent to Oxnard Rehab</textarea>
         </div>
-
-
 
       </form>
     </div>
