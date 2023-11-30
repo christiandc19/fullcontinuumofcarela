@@ -17,7 +17,7 @@ const Hero = () => {
     <>
 <div className="hero-overlay">
       <div className="hero">
-
+        
       <div class="fling-minislide">
         <img src={Hero2} alt="Slide 2" />
         <img src={Hero3} alt="Slide 3" />

@@ -4,7 +4,7 @@ import { BiMenuAltRight } from 'react-icons/bi'
 import {NavLink, Link} from 'react-router-dom'
 import logo from '../../assets/logo.png'
 import {BsFillCaretDownFill } from "react-icons/bs";
-// import Topbar from '../../components/topbar/Topbar';
+import ContactButton from '../../components/contact/ContactButton';
 
 import './NavbarStyles.css'
 
@@ -42,6 +42,7 @@ const Navbar = () => {
 
     return (
         <>
+      <ContactButton />
 
         <div className='navbar' name="top">
 
