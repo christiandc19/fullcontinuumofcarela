@@ -162,47 +162,32 @@ const Footer = () => {
 
 
 
-
+{/* Contact */}
             <div className="col">
               <h3>CONTACT</h3>
-
-{/* PHP */}
               <div>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/partial-hospitalization-program">
                   <h2><span><MdPhoneCallback /></span> <a href="tel:1234567890">(123) 456-7890</a></h2>
-                  </Link>
-                </LinkRoll>
-              </div>
-{/* IOP */}
-
-              <div>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/intensive-outpatient-program">
-                  <h2><span><MdAlternateEmail  /></span> info@email.com</h2>
-                  </Link>
-                </LinkRoll>
               </div>
 
-{/* OP */}
+              <div>
+                  <h2><span><MdAlternateEmail  /><a href = "mailto: abc@example.com">info@email.com</a></span></h2>
+              </div>
 
               <div>
-                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
-                  <Link to="/outpatient-program">
                   <h2><span><FiMapPin  /></span> Los Angeles California</h2>
-                  </Link>
-                </LinkRoll>
               </div>
-
             </div>
-
-
-
-
-
-
-
           </div>
+
+
+
+
+
+
+
+
+
+
           <p className="copyright">
             <p>
               &copy; 2023 FullContinuumOfCareLA All rights
