@@ -74,7 +74,8 @@
 }
 
 .insurance-thumbnail {
-    width: 120px;
+    width: 100px;
+    height: 100%;
 }
 
 .insurance-thumbnail img {
@@ -86,11 +87,12 @@
 @media  screen and (max-width:940px) {
 
   .insurance-section-flex {
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
 
     .insurance-section-left {
         width: 100%;
+        text-align: center;
       }
     
     .insurance-section-header h1 {
@@ -101,6 +103,7 @@
 
     .insurance-section-header p {
         font-size: 14px;
+        text-align: center;
     }
 
     .insurance-thumbnail {
