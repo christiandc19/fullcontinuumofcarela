@@ -3,6 +3,10 @@ import { Link } from "react-router-dom";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import logo from '../../assets/logo.png'
 import "./FooterStyles.css";
+import { MdPhoneCallback } from "react-icons/md";
+import { MdAlternateEmail } from "react-icons/md";
+import { FiMapPin } from "react-icons/fi";
+
 
 import { Link as LinkRoll } from "react-scroll";
 
@@ -80,11 +84,6 @@ const Footer = () => {
 
 
 
-
-
-
-
-
             <div className="col">
               <h3>DETOX PROGRAMS</h3>
 
@@ -157,6 +156,47 @@ const Footer = () => {
               </div>
 
             </div>
+
+
+
+
+
+
+
+            <div className="col">
+              <h3>CONTACT</h3>
+
+{/* PHP */}
+              <div>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/partial-hospitalization-program">
+                  <h2><span><MdPhoneCallback /></span> <a href="tel:1234567890">(123) 456-7890</a></h2>
+                  </Link>
+                </LinkRoll>
+              </div>
+{/* IOP */}
+
+              <div>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/intensive-outpatient-program">
+                  <h2><span><MdAlternateEmail  /></span> info@email.com</h2>
+                  </Link>
+                </LinkRoll>
+              </div>
+
+{/* OP */}
+
+              <div>
+                <LinkRoll activeClass="active" to="top" spy={true} smooth={true} duration={500}>
+                  <Link to="/outpatient-program">
+                  <h2><span><FiMapPin  /></span> Los Angeles California</h2>
+                  </Link>
+                </LinkRoll>
+              </div>
+
+            </div>
+
+
 
 
 
